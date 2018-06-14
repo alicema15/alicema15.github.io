@@ -2913,16 +2913,17 @@ nav.secondary ul li a {
 /* Header */
 
 	#header {
-    height: 100%;
+    height: calc(100vh - 150px);
 		padding: 9em 0 9em 0 ;
     color: #000 !important;
     background: rgba(0,0,0,0.3);
 		background-color: #fff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/bg2.jpg"), url("images/overlay3.svg");
-		background-position: top left,						center center,					center center;
+		background-image: url("images/bg2.png"), url("images/overlay3.svg");
+		background-position: bottom left,						center center,					center center;
 		background-size: auto,							cover,							cover;
+    background-repeat: repeat-x;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -2944,13 +2945,14 @@ nav.secondary ul li a {
 */		}
 
     #header .inner {
-      opacity: .4 !important;
+      opacity: 1 !important;
     }
     #header h1 {
-      text-shadow: 3px 3px 0 rgba(0,0,0,.2);
-      font-size: 45px;
-      background-color: #d3d3d3;
-    }
+      text-shadow: 3px 3px 0 #feef02;
+/*      text-shadow: 3px 3px 0 rgba(0,0,0,.2);
+*/      font-size: 45px;
+/*      background-color: #d3d3d3;
+*/    }
 
 		#header header p {
 			color: #ffffff;
