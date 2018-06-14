@@ -2894,7 +2894,7 @@ nav.secondary ul {
   box-shadow: 5px 5px 0 rgba(0,0,0,.2);
   line-height: 59px;
   height: 59px;
-  background: #fde464;
+  background: #ecc14a;
 }
 
 nav.secondary ul li {
@@ -2948,9 +2948,9 @@ nav.secondary ul li a {
       opacity: 1 !important;
     }
     #header h1 {
-      text-shadow: 3px 3px 0 #feef02;
+      text-shadow: 3px 3px 0 #ecc14a; /*#feef02;*/
 /*      text-shadow: 3px 3px 0 rgba(0,0,0,.2);
-*/      font-size: 45px;
+*/      font-size: 60px;
 /*      background-color: #d3d3d3;
 */    }
 
