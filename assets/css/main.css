@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300italic,400,400italic,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,600,900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300italic,400,400italic,600,900");
 
 /*
 	Photon by Pixelarity
@@ -2814,16 +2815,63 @@
   height: 85px;
   display: flex;
   flex-direction: vertical;
+  align-items: center;
+
 }
 
- #top .logo-header {
-  top: 15px;
+#top .logo-header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
   margin: 0 auto;
-  right: 0;
+/*  padding: auto 0;
+*/  transform: translate(-50%,-50%);
+
 }
 
 #top .logo-image {
   width: 150px;
+}
+
+#top .primary {
+  display: block;
+}
+
+#top #primary-navigation {
+  margin: 0 0 0 17px;
+}
+
+#top #primary-navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+#top #primary-navigation a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+#top .menu-item {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 12px 13px 7px;
+}
+
+#top .control {
+  margin-left: auto;
+  margin-right: -10px;
+  position: relative;
+}
+/*#top #secondary-navigation {
+  position: relative;
+}*/
+
+nav.secondary ul li a {
+  background: #164686;
+  color: #fff;
+  line-height: 59px;
+  height: 59px;
 }
 
 /* Header */
@@ -2840,12 +2888,10 @@
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
-/*    opacity: .7;
-*/		position: relative;
+		position: relative;
 		text-align: center;
     font-weight: 900;
-/*    font-size: 30px;
-*/	}
+	}
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
@@ -2858,7 +2904,8 @@
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
 			color: #000;
       opacity: 1 !important;
-		}
+/*      font-family: "Poppins";
+*/		}
 
     #header h1 {
       text-shadow: -2px 2px 0 #feef02;
@@ -2947,15 +2994,15 @@
 			position: relative;
 		}
 
-			#header .actions:after {
-				background: #ffffff;
-				content: '';
-				height: 100vh;
-				left: 50%;
-				position: absolute;
-				top: 100%;
-				width: 1px;
-			}
+		#header .actions:after {
+			background: #ffffff;
+			content: '';
+			height: 100vh;
+			left: 50%;
+			position: absolute;
+			top: 100%;
+			width: 1px;
+		}
 
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
@@ -3014,13 +3061,13 @@
 		opacity: 0;
 	}
 
-		body.is-loading #header .inner .actions {
-			-moz-transform: translateY(30em);
-			-webkit-transform: translateY(30em);
-			-ms-transform: translateY(30em);
-			transform: translateY(30em);
-			opacity: 0;
-		}
+	body.is-loading #header .inner .actions {
+		-moz-transform: translateY(30em);
+		-webkit-transform: translateY(30em);
+		-ms-transform: translateY(30em);
+		transform: translateY(30em);
+		opacity: 0;
+	}
 
 	body.is-loading #header:after {
 		opacity: 1;
