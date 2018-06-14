@@ -2795,6 +2795,37 @@
 				color: #ffffff;
 			}
 
+/* Navbar */
+
+#top {
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  z-index: 9998;
+}
+
+#top .main-header {
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 5px 0 rgba(0,0,0,.2);
+  position: relative;
+  transition: all .3s ease-in-out;
+  padding: 15px 0;
+  height: 85px;
+  display: flex;
+  flex-direction: vertical;
+}
+
+ #top .logo-header {
+  top: 15px;
+  margin: 0 auto;
+  right: 0;
+}
+
+#top .logo-image {
+  width: 150px;
+}
+
 /* Header */
 
 	#header {
@@ -2815,10 +2846,6 @@
     font-weight: 900;
 /*    font-size: 30px;
 */	}
-
-  #header .logo-header {
-    width: 150px;
-  }
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
