@@ -2861,8 +2861,8 @@
 #top .secondary ul {
   font-size: 15px;
   font-weight: 600;
-  padding: 13px 12px 13px 7px;
-  margin: 0 !important;
+/*  padding: 13px 12px 13px 7px;
+*/  margin: 0 !important;
 }
 
 #top .control {
@@ -2870,9 +2870,6 @@
   margin-right: -10px;
   position: relative;
 }
-/*#top #secondary-navigation {
-  position: relative;
-}*/
 
 #top .menu-button {
   font-size: 15px;
@@ -2888,20 +2885,23 @@ nav.secondary {
 }
 
 nav.secondary ul {
-    box-shadow: 5px 5px 0 rgba(0,0,0,.2);
+  box-shadow: 5px 5px 0 rgba(0,0,0,.2);
   line-height: 59px;
   height: 59px;
+  background: #000;
 }
 
 nav.secondary ul li {
-  background: #164686;
+  padding-right: 1.5em;
 }
 
 nav.secondary ul li a {
-  color: #fff;
+  color: #feef02;
   border-bottom: none !important;
   text-decoration: none !important;
   text-transform: uppercase;
+  line-height: 59px;
+
 }
 
 /* Header */
@@ -2938,7 +2938,7 @@ nav.secondary ul li a {
 */		}
 
     #header h1 {
-      text-shadow: -2px 2px 0 #feef02;
+      text-shadow: 3px 3px 0 rgba(0,0,0,.2);
       font-size: 45px;
       background-color: #d3d3d3;
     }
