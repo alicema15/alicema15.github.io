@@ -1809,7 +1809,7 @@
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Montserrat", Helvetica, sans-serif;
+		font-family: "Poppins", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -1868,6 +1868,11 @@
 		font-size: 1.35em;
 		line-height: 1.5em;
 	}
+
+		h3.major {
+			font-weight: 800;
+
+		}
 
 	h4 {
 		font-size: 1.25em;
@@ -1983,7 +1988,7 @@
 
 	header.major {
 		margin: 0 0 1em 0;
-		font-weight: 900;
+		font-weight: 800;
 	}
 
 		header.major:after {
