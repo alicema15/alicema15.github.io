@@ -2899,6 +2899,7 @@ nav.secondary ul {
 
 nav.secondary ul li {
   padding-right: 1.5em;
+  height: 100%;
 }
 
 nav.secondary ul li a {
@@ -2907,7 +2908,10 @@ nav.secondary ul li a {
   text-decoration: none !important;
   text-transform: uppercase;
   line-height: 59px;
+}
 
+nav.secondary.menu-button-secondary {
+  background: #000;
 }
 
 /* Header */
