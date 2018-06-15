@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url("https://fonts.googleapis.com/css?family=:300,300i,400,400i");
 
 /*
   Story by Pixelarity
@@ -157,7 +157,7 @@ input, select, textarea {
   }
 
   body, input, select, textarea {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.65;
@@ -192,7 +192,7 @@ input, select, textarea {
     }
 
   h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.375;
     letter-spacing: -0.05em;
     margin: 0 0 1rem 0;
