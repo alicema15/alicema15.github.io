@@ -36,6 +36,15 @@
 /**!**************/
 /**!**************/
 /**! 1. Reset **/
+
+#front-banner .banner-title {
+/*  color: #000 !important;
+*/  font-weight: 700;
+/*  text-shadow: 3px 3px 0 #ecc14a;
+*/
+}
+
+
 *,
 h1,
 h2,
@@ -109,6 +118,7 @@ html {
     font-size: 87.5%;
   }
 }
+
 body {
   font-size: 1em;
   line-height: 1.625em;
@@ -398,7 +408,7 @@ body {
 .height-20,
 .height-10 {
   height: auto;
-  padding: 5em 0;
+  padding: 0em 0;
 }
 @media all and (max-width: 767px) {
   .height-100,
@@ -412,7 +422,7 @@ body {
   .height-20,
   .height-10 {
     height: auto;
-    padding: 4em 0;
+    padding: 0em 0;
   }
 }
 @media all and (min-height: 600px) and (min-width: 767px) {
@@ -3042,7 +3052,7 @@ form[action*='list-manage.com'] .small-meta {
 /**! 31. Spacing **/
 section,
 footer {
-  padding-top: 6.5em;
+  padding-top: 0em;
   padding-bottom: 8.125em;
 }
 section.space--xxs,
