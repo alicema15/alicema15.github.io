@@ -8064,6 +8064,8 @@ section + img {
   max-height: 1.625em;
   opacity: .3;
   margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .map-1 {
   overflow: hidden;
