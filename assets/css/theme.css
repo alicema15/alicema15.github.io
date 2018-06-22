@@ -41,9 +41,14 @@
   color: #000 !important;
   font-weight: 700;
   text-shadow: 3px 3px 0 #ecc14a;
-  font-size: 60px;
-
 }
+
+@media all and (min-width: 767px) {
+  #front-banner .banner-title {
+    font-size: 60px;
+  }
+}
+
 
 #ethos-section {
   padding-top: 8.125em;
