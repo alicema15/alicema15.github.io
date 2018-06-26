@@ -37,44 +37,6 @@
 /**!**************/
 /**! 1. Reset **/
 
-#front-banner .banner-title {
-  color: #000 !important;
-  font-weight: 700;
-  text-shadow: 3px 3px 0 #ecc14a;
-}
-
-@media all and (min-width: 767px) {
-  #front-banner .banner-title {
-    font-size: 60px;
-  }
-}
-
-
-#ethos-section {
-  padding-top: 8.125em;
-  background-color: rgba(0,0,0,0.3);
-/*  background-color: #ecc14a;*/
-}
-
-#ethos-section .text-section {
-  padding: 2em !important;
-  background-color: #fff;
-  top: 20px;
-  box-shadow: 6px 6px 0 0 rgba(0,0,0,.15)
-}
-
-#feature-icons-home {
-  padding-bottom: 0em !important;
-}
-
-.powered-public {
-  opacity: .3 !important;
-}
-
-.background-image-holder {
-/*  opacity: 1 !important;
-*/}
-
 
 *,
 h1,
