@@ -44,10 +44,16 @@ Add your custom styles below
 /*  opacity: 1 !important;
 */}
 
-.value-prop-subheader {
-  margin-bottom: 0.8em;
+.sliding-img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
-.feature-3 .feature__left {
-    margin-top: 1.25em;
+.container.no-left-margin {
+    margin-left: 0;
+    padding-left: 0
+}
+
+h6.feature-header {
+    font-size: 0.8em;
 }
