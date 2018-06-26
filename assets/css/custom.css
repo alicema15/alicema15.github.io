@@ -43,3 +43,11 @@ Add your custom styles below
 .background-image-holder {
 /*  opacity: 1 !important;
 */}
+
+.value-prop-subheader {
+  margin-bottom: 0.8em;
+}
+
+.feature-3 .feature__left {
+    margin-top: 1.25em;
+}
