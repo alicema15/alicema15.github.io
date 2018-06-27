@@ -49,9 +49,9 @@ Add your custom styles below
     -webkit-filter: grayscale(100%);
 }
 
-.container.no-left-margin {
-    margin-left: 0;
-    padding-left: 0
+.mb-none {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h6.feature-header {
