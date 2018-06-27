@@ -2,9 +2,9 @@
 Add your custom styles below
 ****************************/
 
-.custom-background {
+/* .custom-background {
 	padding-top: 10%;
-}
+} */
 
 #front-banner .banner-title {
   color: #000 !important;
@@ -56,4 +56,28 @@ Add your custom styles below
 
 h6.feature-header {
     font-size: 0.8em;
+}
+
+#subForm {
+    margin-top: 20px;
+}
+
+.sub-form-button {
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+}
+
+#product-header {
+    margin-bottom: 70px;
+}
+
+#product-screenshot {
+    margin-top: 50px;
+}
+
+.feature-header.shift-header-down {
+    margin-top: 20px !important;
 }
