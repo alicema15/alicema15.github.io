@@ -21,8 +21,7 @@ Add your custom styles below
 
 #ethos-section {
   padding-top: 8.125em;
-  background-color: rgba(0,0,0,0.3);
-/*  background-color: #ecc14a;*/
+  background-color: rgb(68, 94, 184);
 }
 
 #ethos-section .text-section {
