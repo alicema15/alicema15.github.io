@@ -9,7 +9,15 @@ Add your custom styles below
 #front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
-  text-shadow: 3px 3px 0 #ecc14a;
+  /*text-shadow: 3px 3px 0 #ecc14a;*/
+}
+
+#rotate-text {
+  color: #ecc14a;
+}
+
+em {
+  color: #ecc14a;
 }
 
 @media all and (min-width: 767px) {

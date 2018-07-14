@@ -12,4 +12,11 @@ function openSection(event, sectionId) {
     event.currentTarget.className += ' active';
 }
 
+$('#rotate-text').Morphext({
+    animation: "fadeInUp",
+    separator: ",",
+    speed: 2500,
+    complete: function() {}
+});
+
 document.getElementById('default-open').click();
