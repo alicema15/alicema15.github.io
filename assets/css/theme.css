@@ -117,8 +117,8 @@ body {
   line-height: 1.625em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
-  color: #767676;
+/*  font-family: 'Lora', 'Helvetica', 'Arial', sans-serif;
+*/  color: #1a1a1a; /* #767676 */
   font-weight: 400;
 }
 h1,
@@ -262,8 +262,8 @@ a:active {
   text-decoration: underline;
 }
 .type--body-font {
-  font-family: 'Lora', 'Helvetica';
-}
+/*  font-family: 'Lora', 'Helvetica';
+*/}
 /**! 4. Position **/
 body {
   overflow-x: hidden;
@@ -3311,9 +3311,7 @@ h3 em,
 h4 em,
 h5 em,
 h6 em {
-  font-family: 'Lora';
-  font-weight: 400;
-  font-style: italic;
+
 }
 .type--body-font {
   font-weight: 400;
