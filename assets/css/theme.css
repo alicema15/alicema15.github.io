@@ -4219,7 +4219,7 @@ label {
 label + input {
   margin-top: 0.8125em;
 }
-button {
+/*button {
   height: 52px;
   font-size: 0.625em !important;
   letter-spacing: 1px;
@@ -4236,7 +4236,7 @@ button:active,
 button:hover,
 button:focus {
   border-color: #425cbb !important;
-}
+}*/
 button.btn--loading:after {
   background: #8c9cd7;
 }

@@ -1,0 +1,81 @@
+/***************************
+Add your custom styles below
+****************************/
+
+/* .custom-background {
+	padding-top: 10%;
+} */
+
+#front-banner .banner-title {
+  color: #000 !important;
+  font-weight: 700;
+  text-shadow: 3px 3px 0 #ecc14a;
+}
+
+@media all and (min-width: 767px) {
+  #front-banner .banner-title {
+    font-size: 60px;
+  }
+}
+
+#ethos-section {
+  padding-top: 8.125em;
+  background-color: rgb(68, 94, 184);
+}
+
+#ethos-section .text-section {
+  padding: 2em !important;
+  background-color: #fff;
+  top: 20px;
+  box-shadow: 6px 6px 0 0 rgba(0,0,0,.15)
+}
+
+#feature-icons-home {
+  padding-bottom: 0em !important;
+}
+
+.powered-public {
+  opacity: .3 !important;
+}
+
+.background-image-holder {
+/*  opacity: 1 !important;
+*/}
+
+.sliding-img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.mb-none {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h6.feature-header {
+    font-size: 0.8em;
+}
+
+#subForm {
+    margin-top: 20px;
+}
+
+.sub-form-button {
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+}
+
+#product-header {
+    margin-bottom: 70px;
+}
+
+#product-screenshot {
+    margin-top: 50px;
+}
+
+.feature-header.shift-header-down {
+    margin-top: 20px !important;
+}
