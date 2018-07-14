@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300italic,400,400italic,600,900");
 
 .beta-section {
-  background-color: #e8f5f7; /* #FFB221 */
+  background-color: #FFB221 ; /* yellow: #ecc14a teal: #2bc6c8  orange: #FFB221 light-blue: #e8f5f7 */
   color: #fafafa;
   font-family: 'Montserrat', sans-serif;
   padding: 0;
@@ -124,7 +124,7 @@ nav.secondary ul {
   box-shadow: 5px 5px 0 rgba(0,0,0,.2);
   line-height: 59px;
   height: 59px;
-  background: #FFB221; /*#ecc14a */
+  background: #2bc6c8; /* yellow: #ecc14a teal: #2bc6c8  orange: #FFB221 light-blue: #e8f5f7 */
   padding-left: 15px;
 }
 
