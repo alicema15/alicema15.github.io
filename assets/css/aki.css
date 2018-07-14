@@ -4,13 +4,18 @@ h3 {
 }
 
 /* Approaching public data */
+#data-stack-container {
+    margin-left: 95px;
+} 
+
 .tab-c {
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 25%;
+    /*width: 25%;*/
     height: 280px;
     overflow-y: hidden;
+    padding: 0px;
 }
 
 .tab-c button {
@@ -35,11 +40,15 @@ h3 {
     background-color: #FFB221;
 }
 
+.tab-content-container {
+    padding: 0px;
+}
+
 .tab-content-c {
     float: left;
     padding: 15px 20px;
     border: 1px solid #ccc;
-    width: 70%;
+    /*width: 70%;*/
     border-left: none;
     height: 280px;
     overflow-y: hidden;
