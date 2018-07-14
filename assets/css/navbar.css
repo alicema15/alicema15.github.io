@@ -1,6 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,600,900");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300italic,400,400italic,600,900");
 
+.beta-section {
+  background-color: #e8f5f7; /* #FFB221 */
+  color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  line-height: 20px;
+  padding: 5px 0;
+  height: 30px;
+}
+
+.sign-up-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-tagline {
+  margin: 0;
+  font-size: 0.6em;
+  vertical-align: baseline;
+  color: black;
+}
+
 #top {
   color: #666;
   font-family: "Poppins", Helvetica, sans-serif;
@@ -102,7 +124,7 @@ nav.secondary ul {
   box-shadow: 5px 5px 0 rgba(0,0,0,.2);
   line-height: 59px;
   height: 59px;
-  background: #ecc14a;
+  background: #FFB221; /*#ecc14a */
   padding-left: 15px;
 }
 
