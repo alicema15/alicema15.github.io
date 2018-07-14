@@ -16,10 +16,6 @@ Add your custom styles below
   color: #ecc14a;
 }
 
-em {
-  color: #ecc14a;
-}
-
 @media all and (min-width: 767px) {
   #front-banner .banner-title {
     font-size: 60px;
