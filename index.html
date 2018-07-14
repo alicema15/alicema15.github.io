@@ -12,6 +12,7 @@
         <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/navbar.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/aki.css" rel="stylesheet" type="text/css" media="all"/>
         <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
         <link rel="icon" href="assets/img/favicon.ico"/>
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -90,7 +91,31 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="tab-c">
+                            <button id="default-open" class="tab-link-c" onclick="openSection(event, 'level1')">Unstructured data</button>
+                            <button class="tab-link-c" onclick="openSection(event, 'level2')">Structured data</button>
+                            <button class="tab-link-c" onclick="openSection(event, 'level3')">Data visualization</button>
+                            <button class="tab-link-c" onclick="openSection(event, 'level4')">Drawing insights</button>
+                        </div>
+                        <div class="tab-content-container">
+                            <div id="level1" class="tab-content-c">
+                                <h3>Unstructured data</h3>
+                                <p>Most data existing on the internet is unstructured. Large datasets filled with millions of lines of undecipherable text are treasure troves of information. However, these files are near impossible for any human to read and come away with anything more useful than a headache.</p>
+                            </div>
+                            <div id="level2" class="tab-content-c">
+                                <h3>Structured data</h3>
+                                <p>This level references any data that has been organized in some useful way.</p> 
+                            </div>
+                            <div id="level3" class="tab-content-c">
+                                <h3>Data visualization</h3>
+                                <p>Rather than looking for general patterns across millions of lines of text and numbers, it's much, much easier for someone to glance at a chart and instantly deduce an upward trend.</p>
+                            </div>
+                            <div id="level4" class="tab-content-c">
+                                <h3>Drawing insights</h3>
+                                <p>The final evolution of this stack not only helps users view data, but also suggests possible takeaways from the content they are consuming.</p>
+                            </div>
+                        </div>
+                       <!--  <div class="col-sm-6">
                             <div class="feature boxed feature-1 text-center">
                                 <p>Unstructured data is hard to use.</p>
                             </div>
@@ -100,7 +125,7 @@
                             <h5>Visualization &amp; Analysis</h5>
                             <h5>Structured Knowledge</h5>
                             <h5>Unstructured Information</h5>
-                        </div>
+                        </div> -->
                     </div>
             </section>
 
@@ -249,5 +274,6 @@
         <script src="assets/js/scrollreveal.min.js"></script>
         <script src="assets/js/parallax.js"></script>
         <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/aki.js"></script>
     </body>
 </html>
