@@ -3,6 +3,10 @@ h3 {
     -webkit-transform:scale(1, 1.1);
 }
 
+.accent {
+  color: #ffb221 !important;
+}
+
 /* Approaching public data */
 #data-stack-container {
     margin-left: 95px;
@@ -37,7 +41,7 @@ h3 {
 }
 
 .tab-c button.active {
-    background-color: #FFB221;
+    background-color: #ffb221;
 }
 
 .tab-content-container {
