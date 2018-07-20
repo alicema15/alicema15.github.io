@@ -77,9 +77,14 @@ h6.feature-header {
 }
 
 #product-screenshot {
-    margin-top: 50px;
+    width: 100%;
 }
 
 .feature-header.shift-header-down {
     margin-top: 20px !important;
+}
+
+
+.hero-parallax {
+  opacity: .3;
 }
