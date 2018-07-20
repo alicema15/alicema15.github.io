@@ -20,3 +20,12 @@ $('#rotate-text').Morphext({
 });
 
 document.getElementById('default-open').click();
+
+window.onscroll = () => {
+    if (window.scrollY > 0) {
+        $('.main-header').addClass('scrolled')
+    }
+    else {
+        $('.main-header').removeClass('scrolled')
+    }
+}

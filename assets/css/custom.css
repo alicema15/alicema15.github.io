@@ -85,6 +85,12 @@ h6.feature-header {
 }
 
 
+.main-header.scrolled {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+
 .hero-parallax {
   opacity: .3;
 }
