@@ -88,3 +88,37 @@ h6.feature-header {
 .hero-parallax {
   opacity: .3;
 }
+
+#footer-logo {
+  margin-bottom: 0;
+  max-height: 26px;
+}
+
+#footer-social-icons {
+  margin-left: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.custom-footer {
+  padding: 2em 0;
+}
+
