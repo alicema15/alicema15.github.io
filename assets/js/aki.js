@@ -53,6 +53,10 @@ $(() => {
         $('#mobile-top').toggleClass('nav-open')
     })
 
+    $('footer').load('./includes/footer.html', function() {
+        $(this).children(':first').unwrap()
+    })
+
     $('select').selectric({
         maxHeight: 200,
         openOnHover: true
