@@ -813,9 +813,9 @@ img {
 .imagebg {
   position: relative;
 }
-.imagebg .container {
+/*.imagebg .container {
   z-index: 2;
-}
+}*/
 .imagebg .container:not(.pos-absolute) {
   position: relative;
 }
