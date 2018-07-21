@@ -35,6 +35,10 @@ h3 {
 }
 
 /* Hero intro */
+#front-banner{ 
+  /*height: 1000px !important;*/
+}
+
 #front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
@@ -176,11 +180,11 @@ h3 {
 
 #product-launch-button {
   border-radius: 0px;
-  border: 1px solid #ebebeb;
-  background-color: #fff;
+  border: 1px solid #ecc14a;
+  background-color: #ecc14a;
   padding: 15px 30px;
-  color: #666;
-  font-size: 600;
+  color: #545454;
+  font-weight: 600;
 }
 
 #product-launch-button:hover {
@@ -244,6 +248,8 @@ h3 {
 .selectric .label:active {
   color: #bc9a3b !important;
 }
+
+.selectric-scroll 
 
 .i-am-a-container {
   /*width: 70vw;*/
