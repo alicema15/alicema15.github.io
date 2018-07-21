@@ -45,16 +45,19 @@ $('#rotate-text').Morphext({
 
 /* I am a... section */
 $(() => {
-    $('select').selectric();
+    $('select').selectric({
+        maxHeight: 200
+    });
 })
 
+var vowels = 'aeiou';
 $(function() {
     $('.i-am-a-subtext').hide();
-    $('#who-am-i-journalist').show();
-
+    $('#who-am-i-activist').show();
     $('#who-am-i-selector').on("change", function() {
         $('.i-am-a-subtext').hide();
         $('#who-am-i-'+$(this).val()).show();
-    }).val("journalist");
+        $('.i-am-a-text').text((vowels.indexOf($(this).val()[0]) !== -1) ? 'I am an' : 'I am a');
+    }).val("activist");
 });
 
