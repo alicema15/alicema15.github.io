@@ -46,6 +46,13 @@ $('#rotate-text').Morphext({
 
 /* I am a... section */
 $(() => {
+    $('#top').load('../includes/nav.html')
+    $('#mobile-top').load('../includes/mobile-nav.html')
+
+    $(document).on('click', '.nav-mobile-toggle', () => {
+        $('#mobile-top').toggleClass('nav-open')
+    })
+
     $('select').selectric({
         maxHeight: 200,
         openOnHover: true
