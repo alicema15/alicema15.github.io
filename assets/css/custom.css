@@ -303,26 +303,33 @@ h3 {
 #sign-up-submit {
   border-radius: 0px;
   padding: 0px;
-  padding-top: 14px;
+  padding-top: 8px;
   width: 52px;
   border: 1px solid #ebebeb;
   background-color: #ebebeb;
 }
 
 #sign-up-submit:hover {
-  border: 1px solid #d3d3d3;
-  background-color: #d3d3d3; 
+  border: 1px solid #ecc14a;
+  background-color: #ecc14a; 
 }
 
 #sign-up-submit:active {
-  border: 1px solid #bcbcbc;
-  background-color: #bcbcbc; 
+  border: 1px solid #d4ad42;
+  background-color: #d4ad42; 
 }
 
 #sign-up-submit i {
   color: #545454;
   font-size: 24px;
   font-weight: bold;
+}
+
+.form-error, .form-success {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 1px;
 }
 
 /* Footer */
