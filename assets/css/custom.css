@@ -269,6 +269,10 @@ h3 {
   margin-top: 25px;
 }
 
+.i-am-a-subtext a {
+  color: #ecc14a !important;
+}
+
 .selectric .button {
   background-color: transparent;
   right: -10px;
