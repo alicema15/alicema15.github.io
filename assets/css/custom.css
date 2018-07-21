@@ -358,3 +358,39 @@ h3 {
 #featured-video {
   padding-bottom: 6em;
 }
+
+/* Labs page */
+.product-card {
+  margin-bottom: 80px;
+}
+
+.product-card .card__image {
+  padding: 0;
+}
+
+.product-card .card__image img, .product-card .card__body {
+  height: 350px;
+}
+
+.product-card .card__body {
+  height: 350px;
+  flex-grow: 10;
+  overflow-y: scroll;
+}
+
+.product-card .card__body .card__title,
+.product-card .card__body .card__title .card__subheader {
+  margin-bottom: 0;
+}
+
+.product-card .card__text {
+  max-width: 400px;
+}
+
+.product-card .card__lower {
+  overflow-y: hidden;
+}
+
+.product-card .card__header__divider {
+  margin: 10px 0;
+}
