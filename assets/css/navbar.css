@@ -68,7 +68,7 @@
 
 }
 
-#top .logo-image {
+.logo-image {
   width: 150px;
   margin-bottom: 0px !important;
 }
@@ -91,7 +91,7 @@
   border-bottom: none !important;
 }
 
-#top .menu-item {
+.menu-item {
   font-size: 15px;
   font-weight: 600;
   padding: 13px;
@@ -142,3 +142,13 @@ nav.secondary ul li a {
 nav.secondary.menu-button-secondary {
   background: #000;
 }
+
+.menu > li.menu-item a {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+
+
