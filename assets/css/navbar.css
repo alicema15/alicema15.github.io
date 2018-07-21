@@ -32,6 +32,10 @@
 }
 
 /* Navbar */
+.main-header.scrolled {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
 
 #top {
   position: sticky;
