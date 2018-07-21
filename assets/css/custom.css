@@ -60,6 +60,11 @@ h3 {
 }
 
 /* Data section */
+#data-section {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
 .layer {
   height: 80px;
   width: 160px;
@@ -111,13 +116,13 @@ h3 {
   margin-left: 30px;
   perspective: 100px;
   perspective-origin: 50% 50px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .texts {
   position: absolute;
   left: 200px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .layers:hover .pos-1, 
@@ -140,6 +145,15 @@ h3 {
     -webkit-filter: grayscale(100%);
 }
 
+.section-type-header {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.section-text {
+  font-size: 1.1em;
+}
+
 /* Product section */
 #product-screenshot {
     width: 100%;
@@ -154,9 +168,16 @@ h3 {
   margin-top: 40px;
 }
 
+.boxed {
+  outline: 1px solid #ebebeb;
+  overflow-y: hidden;
+
+}
+
 /* I am a... section */
 #i-am-a-section {
-  padding: 4.5em 0em;
+  padding: 4.8em 0em;
+  min-height: 375px;
 }
 
 .selectric .label {
@@ -252,4 +273,8 @@ h3 {
   text-transform: uppercase;
   font-family: 'Montserrat';
   letter-spacing: 2px;
+}
+
+#featured-video {
+  padding-bottom: 6em;
 }
