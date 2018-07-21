@@ -146,7 +146,7 @@ h6.feature-header {
   color: #ecc14a !important;
   text-transform: none;
   top: 0;
-  right: 0;
+  left: 0;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 2em;
@@ -156,7 +156,12 @@ h6.feature-header {
   background-color: transparent;
   border: none;
   border-bottom: 3px solid #ecc14a;
-  width: 300px;
+  width: 250px;
+}
+
+.selectric:hover {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .selectric-wrapper {

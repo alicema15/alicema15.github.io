@@ -27,6 +27,11 @@ h3 {
     margin-top: 10px;
 }
 
+#front-banner {
+    padding: 0px;
+    height: 80vh;
+}
+
 /*#front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
