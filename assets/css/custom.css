@@ -198,8 +198,8 @@ h6.feature-header {
 }
 
 .layer {
-  height: 40px;
-  width: 80px;
+  height: 80px;
+  width: 160px;
   opacity: 0.7;
   transform-style: preserve-3d;
   /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
@@ -220,7 +220,7 @@ h6.feature-header {
 }
 
 .pos-1 {
-  top: 20px; 
+  top: 30px; 
 }
 
 .layer-1 {
@@ -228,7 +228,7 @@ h6.feature-header {
 }
 
 .pos-2 {
-  top: 40px;
+  top: 60px;
 }
 
 .layer-2 {
@@ -236,7 +236,7 @@ h6.feature-header {
 }
 
 .pos-3 {
-  top: 60px;
+  top: 90px;
 }
 
 .layer-3 {
@@ -253,8 +253,8 @@ h6.feature-header {
 
 .texts {
   position: absolute;
-  left: 120px;
-  margin-top: 10px;
+  left: 200px;
+  margin-top: 20px;
 }
 
 .layers:hover .pos-1, 
