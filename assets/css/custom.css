@@ -176,7 +176,7 @@ h3 {
 
 #product-launch-button {
   border-radius: 0px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #ebebeb;
   background-color: #fff;
   padding: 15px 30px;
   color: #666;
@@ -185,12 +185,12 @@ h3 {
 
 #product-launch-button:hover {
   background-color: #ecc14a;
-  color: #444;
+  color: #555;
 }
 
 #product-launch-button:active {
   background-color: #d4ad42;
-  color: #444;
+  color: #555;
 }
 
 #three-value-props .boxed {
