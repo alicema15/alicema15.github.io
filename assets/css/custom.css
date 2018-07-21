@@ -299,3 +299,7 @@ h3 {
   font-family: 'Montserrat';
   letter-spacing: 2px;
 }
+
+#featured-video {
+  padding-bottom: 6em;
+}
