@@ -63,6 +63,7 @@ h3 {
 #data-section {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
+  padding-bottom: 80px;
 }
 
 .layer {
@@ -159,6 +160,10 @@ h3 {
 #product-screenshot {
     width: 100%;
     margin-bottom: 0;
+}
+
+#product-intro-container {
+  padding-right: 0px;
 }
 
 #product-title {
