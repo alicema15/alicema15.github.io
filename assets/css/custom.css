@@ -408,6 +408,7 @@ h3 {
 /* Labs page */
 .product-card {
   margin-bottom: 80px;
+  border: 1px solid #ebebeb;
 }
 
 .product-card .card__image {
