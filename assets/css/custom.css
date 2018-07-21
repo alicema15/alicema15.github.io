@@ -303,7 +303,7 @@ h3 {
 #sign-up-submit {
   border-radius: 0px;
   padding: 0px;
-  padding-top: 13px;
+  padding-top: 14px;
   width: 52px;
   border: 1px solid #ebebeb;
   background-color: #ebebeb;
@@ -319,9 +319,10 @@ h3 {
   background-color: #bcbcbc; 
 }
 
-#sign-up-submit span {
+#sign-up-submit i {
   color: #545454;
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* Footer */
