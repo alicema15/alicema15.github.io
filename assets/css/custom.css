@@ -4,8 +4,13 @@
   padding: 0px;
 }
 
+h3 {
+  transform:scale(1, 1.1); 
+  -webkit-transform:scale(1, 1.1);
+}
+
 ::-webkit-input-placeholder {
-    font-style: normal;
+  font-style: normal;
 }
 
 .flex-row {
@@ -203,7 +208,7 @@
   margin-right: 10px;
 }
 
-#i-am-a-subtext {
+.i-am-a-subtext {
   margin-top: 25px;
 }
 

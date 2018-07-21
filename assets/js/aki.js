@@ -1,3 +1,13 @@
+/* Navbar */
+window.onscroll = () => {
+    if (window.scrollY > 0) {
+        $('.main-header').addClass('scrolled')
+    }
+    else {
+        $('.main-header').removeClass('scrolled')
+    }
+}
+
 /* Banner image */
 // $("#banner-slideshow > img:gt(0)").hide();
 
@@ -33,16 +43,18 @@ $('#rotate-text').Morphext({
     complete: function() {}
 });
 
-/* Public data section */
-window.onscroll = () => {
-    if (window.scrollY > 0) {
-        $('.main-header').addClass('scrolled')
-    }
-    else {
-        $('.main-header').removeClass('scrolled')
-    }
-}
-
+/* I am a... section */
 $(() => {
     $('select').selectric();
 })
+
+$(function() {
+    $('.i-am-a-subtext').hide();
+    $('#who-am-i-journalist').show();
+
+    $('#who-am-i-selector').on("change", function() {
+        $('.i-am-a-subtext').hide();
+        $('#who-am-i-'+$(this).val()).show();
+    }).val("journalist");
+});
+
