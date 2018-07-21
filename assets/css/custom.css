@@ -4,8 +4,13 @@
   padding: 0px;
 }
 
+h3 {
+  transform:scale(1, 1.1); 
+  -webkit-transform:scale(1, 1.1);
+}
+
 ::-webkit-input-placeholder {
-    font-style: normal;
+  font-style: normal;
 }
 
 .flex-row {
@@ -203,7 +208,7 @@
   margin-right: 10px;
 }
 
-#i-am-a-subtext {
+.i-am-a-subtext {
   margin-top: 25px;
 }
 
@@ -226,6 +231,7 @@
   padding: 2em 0;
 }
 
+
 /* About page */
 .letter-container {
   background-color: #fefefe;
@@ -234,4 +240,12 @@
   padding: 40px;
   max-width: 800px;
   text-align: justify;
+}
+
+
+/* Press page */
+.card__date {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
 }
