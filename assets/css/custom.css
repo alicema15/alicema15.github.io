@@ -1,10 +1,7 @@
-/***************************
-Add your custom styles below
-****************************/
-
-/* .custom-background {
-	padding-top: 10%;
-} */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 #front-banner .banner-title {
   color: #000 !important;
@@ -130,7 +127,6 @@ h6.feature-header {
   padding: 2em 0;
 }
 
-
 #product-title {
   margin-top: 20px;
 }
@@ -139,29 +135,38 @@ h6.feature-header {
   margin-top: 40px;
 }
 
-
 .selectric .label {
   position: relative;
   background-color: rgba(0, 0, 0, 0);
   color: #ecc14a !important;
   text-transform: none;
-  top: 0;
-  left: 0;
-  font-family: 'Montserrat';
+  top: -1px;
+  left: 0px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 2em;
+  overflow-y: visible;
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.selectric .label:hover {
+  color: #d4ad42 !important;
+}
+
+.selectric .label:active {
+  color: #bc9a3b !important;
 }
 
 .selectric {
   background-color: transparent;
   border: none;
-  border-bottom: 3px solid #ecc14a;
-  width: 250px;
+  border-bottom: 4px solid #fff;
+  width: 205px;
 }
 
 .selectric:hover {
-  color: rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 4px solid #fff;
 }
 
 .selectric-wrapper {
@@ -189,12 +194,7 @@ h6.feature-header {
 
 .selectric .button {
   background-color: transparent;
-}
-
-
-* {
-  margin: 0px;
-  padding: 0px;
+  right: -10px;
 }
 
 .layer {
