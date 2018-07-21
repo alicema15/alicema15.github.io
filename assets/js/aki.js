@@ -13,3 +13,7 @@ window.onscroll = () => {
         $('.main-header').removeClass('scrolled')
     }
 }
+
+$(() => {
+    $('select').selectric();
+})

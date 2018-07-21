@@ -110,6 +110,7 @@ h6.feature-header {
 }
 
 .flex-row {
+  display: flex;
   flex-direction: row;
 }
 
@@ -130,13 +131,59 @@ h6.feature-header {
 }
 
 
-
 #product-title {
   margin-top: 20px;
 }
 
 #product-subtitle {
   margin-top: 40px;
+}
+
+
+.selectric .label {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ecc14a !important;
+  text-transform: none;
+  top: 0;
+  right: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.selectric {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #ecc14a;
+  width: 300px;
+}
+
+.selectric-wrapper {
+  margin-top: 5px;
+}
+
+
+.i-am-a-container {
+  width: 70vw;
+}
+
+#i-am-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.i-am-a-text {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#i-am-a-subtext {
+  margin-top: 25px;
+}
+
+.selectric .button {
+  background-color: transparent;
 }
 
 
