@@ -35,14 +35,14 @@ h3 {
 }
 
 /* Hero intro */
+#front-banner{ 
+  /*height: 1000px !important;*/
+}
+
 #front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
-  /*text-shadow: 3px 3px 0 #ecc14a;*/
-}
-
-#rotate-text {
-  color: #ecc14a;
+  /*text-shadow: 3px 3px 0 #ffb221;*/
 }
 
 @media all and (min-width: 767px) {
@@ -176,21 +176,21 @@ h3 {
 
 #product-launch-button {
   border-radius: 0px;
-  border: 1px solid #d3d3d3;
-  background-color: #fff;
+  border: 1px solid #ffb221;
+  background-color: #ffb221;
   padding: 15px 30px;
-  color: #666;
-  font-size: 600;
+  color: #545454;
+  font-weight: 600;
 }
 
 #product-launch-button:hover {
-  background-color: #ecc14a;
-  color: #444;
+  background-color: #ffb221;
+  color: #555;
 }
 
 #product-launch-button:active {
   background-color: #d4ad42;
-  color: #444;
+  color: #555;
 }
 
 #three-value-props .boxed {
@@ -224,7 +224,7 @@ h3 {
 .selectric .label {
   position: relative;
   background-color: rgba(0, 0, 0, 0);
-  color: #ecc14a !important;
+  color: #ffb221 !important;
   text-transform: none;
   top: -4px;
   left: -2px;
@@ -245,6 +245,8 @@ h3 {
   color: #bc9a3b !important;
 }
 
+.selectric-scroll 
+
 .i-am-a-container {
   /*width: 70vw;*/
 }
@@ -261,6 +263,10 @@ h3 {
 
 .i-am-a-subtext {
   margin-top: 25px;
+}
+
+.i-am-a-subtext a {
+  color: #ffb221 !important;
 }
 
 .selectric .button {
@@ -337,8 +343,8 @@ h3 {
 }
 
 #sign-up-submit:hover {
-  border: 1px solid #ecc14a;
-  background-color: #ecc14a; 
+  border: 1px solid #ffb221;
+  background-color: #ffb221; 
 }
 
 #sign-up-submit:active {
@@ -405,7 +411,7 @@ h3 {
 }
 
 .product-card .card__image {
-  padding: 0;
+  padding: 0px;
 }
 
 .product-card .card__image img, .product-card .card__body {
@@ -415,16 +421,17 @@ h3 {
 .product-card .card__body {
   height: 350px;
   flex-grow: 10;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .product-card .card__body .card__title,
 .product-card .card__body .card__title .card__subheader {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .product-card .card__text {
-  max-width: 400px;
+  max-width: 510px;
+  margin-bottom: 0px;
 }
 
 .product-card .card__lower {
@@ -432,5 +439,5 @@ h3 {
 }
 
 .product-card .card__header__divider {
-  margin: 10px 0;
+  margin: 10px 0px;
 }
