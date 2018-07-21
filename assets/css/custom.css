@@ -242,8 +242,12 @@ h3 {
 }
 
 /* Sign up */
+#sign-up-section {
+  padding-bottom: 80px;
+}
+
 #sign-up-section .container {
-  max-width: 430px;
+  max-width: 600px;
 }
 
 .image-overlay {
@@ -257,6 +261,10 @@ h3 {
 #sign-up-container.boxed {
   outline: 1px solid #ebebeb;
   overflow-y: hidden;
+  padding-top: 50px;
+  padding-left: 85px;
+  padding-bottom: 50px;
+  margin: 0px;
 }
 
 #sign-up-container h3 {
@@ -264,9 +272,10 @@ h3 {
   color: #232323;
 }
 
-#sign-up-container h4 {
-  margin: 0px;
-  color: #ccc;
+#sign-up-container h5 {
+  margin-bottom: 10px;
+  color: #777;
+  font-weight: 400;
 }
 
 #sign-up-text {
@@ -276,17 +285,43 @@ h3 {
 #sign-up-form {
   display: flex;
   flex-direction: row;
+  margin-top: 20px;
+  margin-left: -2px;
 }
 
 #sign-up-input {
-  width: 200px;
+  width: 290px;
   border-radius: 0px;
   border: 1px solid #ebebeb;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  letter-spacing: .5px;
+  padding-left: 15px;
+  background-color: #fff;
+  color: #545454;
 }
 
 #sign-up-submit {
   border-radius: 0px;
-  padding: auto;
+  padding: 0px;
+  padding-top: 13px;
+  width: 52px;
+  border: 1px solid #ebebeb;
+  background-color: #ebebeb;
+}
+
+#sign-up-submit:hover {
+  border: 1px solid #d3d3d3;
+  background-color: #d3d3d3; 
+}
+
+#sign-up-submit:active {
+  border: 1px solid #bcbcbc;
+  background-color: #bcbcbc; 
+}
+
+#sign-up-submit span {
+  color: #545454;
+  font-size: 30px;
 }
 
 /* Footer */
