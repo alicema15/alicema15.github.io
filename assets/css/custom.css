@@ -78,6 +78,7 @@ h6.feature-header {
 
 #product-screenshot {
     width: 100%;
+    margin-bottom: 0;
 }
 
 .feature-header.shift-header-down {
@@ -85,6 +86,182 @@ h6.feature-header {
 }
 
 
+.main-header.scrolled {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+
 .hero-parallax {
   opacity: .3;
+}
+
+#footer-logo {
+  margin-bottom: 0;
+  max-height: 26px;
+}
+
+#footer-social-icons {
+  margin-left: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.custom-footer {
+  padding: 2em 0;
+}
+
+
+#product-title {
+  margin-top: 20px;
+}
+
+#product-subtitle {
+  margin-top: 40px;
+}
+
+
+.selectric .label {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ecc14a !important;
+  text-transform: none;
+  top: 0;
+  right: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.selectric {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #ecc14a;
+  width: 300px;
+}
+
+.selectric-wrapper {
+  margin-top: 5px;
+}
+
+
+.i-am-a-container {
+  width: 70vw;
+}
+
+#i-am-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.i-am-a-text {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#i-am-a-subtext {
+  margin-top: 25px;
+}
+
+.selectric .button {
+  background-color: transparent;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.layer {
+  height: 40px;
+  width: 80px;
+  opacity: 0.7;
+  transform-style: preserve-3d;
+  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
+  /* transform: rotateX(20deg) rotateY(20deg) rotateZ(45deg); */
+  /* transform: rotate3d(1, 1, 0.1, 0deg); */
+  transform: skew(-20deg, 15deg) rotateX(20deg);
+  position: absolute;
+  transition: top 300ms ease-in;
+}
+
+.layer-0 {
+  background-color: orange;
+  opacity: 1;
+}
+
+.pos-0 {
+  top: 0px;
+}
+
+.pos-1 {
+  top: 20px; 
+}
+
+.layer-1 {
+  background-color: purple;
+}
+
+.pos-2 {
+  top: 40px;
+}
+
+.layer-2 {
+  background-color: red;
+}
+
+.pos-3 {
+  top: 60px;
+}
+
+.layer-3 {
+  background-color: blue;
+}
+
+
+.layers {
+  margin-left: 30px;
+  perspective: 100px;
+  perspective-origin: 50% 50px;
+  margin-top: 15px;
+}
+
+.texts {
+  position: absolute;
+  left: 120px;
+  margin-top: 10px;
+}
+
+.layers:hover .pos-1, 
+.layers:hover .pos-2,
+.layers:hover .pos-3 {
+  top: 0px;
+}
+
+.layers .texts {
+  transition: top 300ms ease-in, opacity 150ms ease-in;
+}
+
+.layers:hover .texts {
+  opacity: 0;
 }

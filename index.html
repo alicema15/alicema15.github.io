@@ -11,9 +11,10 @@
         <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/morphext.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/navbar.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/selectric.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/aki.css" rel="stylesheet" type="text/css" media="all"/>
         <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
         <link rel="icon" href="assets/img/favicon.ico"/>
@@ -57,7 +58,7 @@
 
 		<div class="main-container">
             <section class="cover cover-12 form--dark imagebg height-100 parallax" id="front-banner">
-<!--                 <div class="background-image-holder">
+                <!-- <div class="background-image-holder">
                     <img class="hero-parallax" src="assets/img/09.png">
                 </div> -->
                 <div class="container pos-vertical-center text-center-xs">
@@ -81,75 +82,98 @@
                 </div>
             </section>
 
-            <section id="hero-intro">
+            <section class="bg--white" id="hero-intro">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-8">
                             <h3>A new approach to public data</h3>
                             <p class="col-sm-12 lead">
                                 Public data is the bedrock upon which citizens stay informed about their institutions and their world.
                             </p>
-                            <div class="col-sm-3 tab-c">
-                                <button id="default-open" class="tab-link-c" onclick="openSection(event, 'level1')">Unstructured data</button>
-                                <button class="tab-link-c" onclick="openSection(event, 'level2')">Structured data</button>
-                                <button class="tab-link-c" onclick="openSection(event, 'level3')">Data visualization</button>
-                                <button class="tab-link-c" onclick="openSection(event, 'level4')">Drawing insights</button>
-                            </div>
-                            <div class="col-sm-9 tab-content-container">
-                                <div id="level1" class="tab-content-c">
-                                    <h3>Unstructured data</h3>
-                                    <p>Most data existing on the internet is unstructured. Large datasets filled with millions of lines of undecipherable text are treasure troves of information. However, these files are near impossible for any human to read and come away with anything more useful than a headache.</p>
-                                </div>
-                                <div id="level2" class="tab-content-c">
-                                    <h3>Structured data</h3>
-                                    <p>This level references any data that has been organized in some useful way. </p> 
-                                </div>
-                                <div id="level3" class="tab-content-c">
-                                    <h3>Data visualization</h3>
-                                    <p>Rather than looking for general patterns across millions of lines of text and numbers, it's much, much easier for someone to glance at a chart and instantly deduce an upward trend.</p>
-                                </div>
-                                <div id="level4" class="tab-content-c">
-                                    <h3>Drawing insights</h3>
-                                    <p>The final evolution of this stack not only helps users view data, but also suggests possible takeaways from the content they are consuming.</p>
-                                </div>
-                            </div>
                         </div>
-                       <!--  <div class="col-sm-6">
-                            <div class="feature boxed feature-1 text-center">
-                                <p>Unstructured data is hard to use.</p>
+                        <div class="col-sm-4">
+                            
+
+                            <div class="layers perspective">
+                              <div class="layer layer-3 pos-3"></div>
+                              <div class="layer layer-2 pos-2"></div>
+                              <div class="layer layer-1 pos-1"></div>
+                              <div class="layer layer-0 pos-0"></div>
+                              
+                              <h5 class="texts pos-3">documents</h5>
+                              <h5 class="texts pos-2">knowledge</h5>
+                              <h5 class="texts pos-1">visualization</h5>
+                              <h5 class="texts pos-0">insight</h5>
                             </div>
+
+
                         </div>
-                        <div class="col-sm-6">
-                            <h5>Insight &amp; Verification</h5>
-                            <h5>Visualization &amp; Analysis</h5>
-                            <h5>Structured Knowledge</h5>
-                            <h5>Unstructured Information</h5>
-                        </div> -->
                     </div>
             </section>
 
-            <section class="bg--white">
+            <section>
                 <div class="container">
-                    <h3 class="text-right">A platform to leverage public data.<br />For anyone, anywhere.</h3>
-                    <!-- some sort of product feature: a GIF, a description -->
-
                     <div class="row">
                         <div class="col-md-6">
                             <img src="assets/img/Macbook_Screen.png" id="product-screenshot" />
                         </div>
                         <div class="col-md-6">
-
+                            <h3 id="product-title">A platform to leverage public data. For anyone, anywhere.</h3>
+                            <p class="lead" id="product-subtitle">Archer enables you to build, publish, and discover analysis &amp; narratives derived from public data.</p>
                         </div>
                     </div>
 
+                    <div id="three-value-props" class="feature-11">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="feature boxed feature-1 text-center">
+                                        <i class="icon icon-Transform icon--lg"></i>
+                                        <h5>Visualize networks.</h5>
+                                        <p>Easily see how companies and people are connected across borders, datasets, documents, and media.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="feature boxed feature-1 text-center">
+                                        <i class="icon icon-Idea-3 icon--lg"></i>
+                                        <h5>Generate leads.</h5>
+                                        <p>Analyze your private documents by harnessing the power of public data and crowdsourced insight.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="feature boxed feature-1 text-center">
+                                        <i class="icon icon-Conference icon--lg"></i>
+                                        <h5>Collaborate effortlessly.</h5>
+                                        <p>Supercharge your internal collaboration abilities, or publish your findings to a truly global community.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="imagebg parallax bg--dark">
-                <div class="background-image-holder">
-                    <img src="assets/img/9.jpg" />
+            <section class="bg--dark">
+                <div class="container i-am-a-container">
+                    <div class="flex-row">
+                        <div id="i-am-a" class="flex-row ml-auto mr-auto">
+                            <h3 class="i-am-a-text">I am a</h3>
+                            <select id="who-am-i-selector">
+                                <option value="journalist">journalist.</option>
+                                <option value="engineer">engineer.</option>
+                                <option value="activist">activist.</option>
+                                <option value="advocate">advocate.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="lead" id="i-am-a-subtext">
+                        We love journalists. ArcherPublic is designed for tracking leads, discovering content, and publishing findings.  Sign up below to receive an email when ArcherPublic launches.
+                    </p>
                 </div>
-                <h3 class="text-center">You have the power to make change.</h3>
+            </section>
 
+            <section class="bg--white">
+                <h3 class="text-center">Join us.</h3>
             </section>
                     
 
@@ -183,49 +207,11 @@
             </section>
             -->
 
-            <footer class="bg--dark footer-4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-4">
-                            <img alt="logo" class="logo" src="assets/img/logo-white.png" />
-                            <p>
-                                <em>A Platform for Crowd-Sourced Investigative Knowledge</em>
-                            </p>
-                            <ul class="footer__navigation">
-                            	<li>
-                                    <a href="#">
-                                        <span>Home</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="team">
-                                        <span>Team</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-sm-8">
-                            <h6>Recent Tweets</h6>
-                            <div class="twitter-feed">
-                                <div class="tweets-feed" data-feed-name="archerimpact" data-amount="2"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1 col-sm-12">
-                            <!-- <h6>Subscribe</h6>
-                            <p>
-                                Keep in touch with our work.
-                            </p>
-                            <form class="form--merge form--no-labels" action="http://mrareco.createsend.com/t/d/s/kieth/" method="post" id="subForm" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email.">
-                                <p>
-                                    <label for="fieldEmail">Email Address</label>
-                                    <br />
-                                    <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" required />
-                                </p>
-                                <p>
-                                    <button type="submit">Go</button>
-                                </p>
-                            </form> -->
-                            <h6>Connect with Us</h6>
+            <footer class="bg--dark footer-1 custom-footer">
+                <div class="container footer-container">
+                    <div class="d-flex flex-row center-items">
+                        <img alt="logo" id="footer-logo" src="assets/img/logo-white.png" />
+                        <div id="footer-social-icons">
                             <ul class="social-list">
                                 <li>
                                     <a href="https://twitter.com/archerimpact">
@@ -261,24 +247,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer__lower">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 text-center-xs">
-                                <span class="type--fine-print">&copy; Copyright
-                                    <span class="update-year">2018</span> Archer International Corporation - All Rights Reserved</span>
-                            </div>
-                            <div class="col-sm-6 text-right text-center-xs">
-                                <a href="#" class="inner-link top-link">
-                                    <i class="interface-up-open-big"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </footer>
     </div>
 		<script src="assets/js/jquery-2.1.4.min.js"></script>
+        <script src="assets/js/selectric.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>
         <script src="assets/js/ytplayer.min.js"></script>
         <script src="assets/js/easypiechart.min.js"></script>
