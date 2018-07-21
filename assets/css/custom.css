@@ -42,11 +42,7 @@ h3 {
 #front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
-  /*text-shadow: 3px 3px 0 #ecc14a;*/
-}
-
-#rotate-text {
-  color: #ecc14a;
+  /*text-shadow: 3px 3px 0 #ffb221;*/
 }
 
 @media all and (min-width: 767px) {
@@ -180,15 +176,15 @@ h3 {
 
 #product-launch-button {
   border-radius: 0px;
-  border: 1px solid #ecc14a;
-  background-color: #ecc14a;
+  border: 1px solid #ffb221;
+  background-color: #ffb221;
   padding: 15px 30px;
   color: #545454;
   font-weight: 600;
 }
 
 #product-launch-button:hover {
-  background-color: #ecc14a;
+  background-color: #ffb221;
   color: #555;
 }
 
@@ -228,7 +224,7 @@ h3 {
 .selectric .label {
   position: relative;
   background-color: rgba(0, 0, 0, 0);
-  color: #ecc14a !important;
+  color: #ffb221 !important;
   text-transform: none;
   top: -4px;
   left: -2px;
@@ -270,7 +266,7 @@ h3 {
 }
 
 .i-am-a-subtext a {
-  color: #ecc14a !important;
+  color: #ffb221 !important;
 }
 
 .selectric .button {
@@ -347,8 +343,8 @@ h3 {
 }
 
 #sign-up-submit:hover {
-  border: 1px solid #ecc14a;
-  background-color: #ecc14a; 
+  border: 1px solid #ffb221;
+  background-color: #ffb221; 
 }
 
 #sign-up-submit:active {
