@@ -46,7 +46,8 @@ $('#rotate-text').Morphext({
 /* I am a... section */
 $(() => {
     $('select').selectric({
-        maxHeight: 200
+        maxHeight: 200,
+        openOnHover: true
     });
 })
 

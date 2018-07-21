@@ -148,6 +148,7 @@ h3 {
 .section-type-header {
   font-size: 0.8em;
   margin-bottom: 5px;
+  color: #232323;
 }
 
 .section-text {
@@ -217,9 +218,8 @@ h3 {
   margin-top: 5px;
 }
 
-
 .i-am-a-container {
-  width: 70vw;
+  /*width: 70vw;*/
 }
 
 #i-am-a {
@@ -241,6 +241,33 @@ h3 {
   right: -10px;
 }
 
+/* Sign up */
+#sign-up-image {
+
+}
+
+.image-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.75;
+}
+
+#sign-up-container h3 {
+  margin-bottom: 10px;
+  color: #232323;
+}
+
+#sign-up-container h4 {
+  margin: 0px;
+  color: #ccc;
+}
+
+#sign-up-text {
+  margin: 0px;
+}
+
 /* Footer */
 #footer-logo {
   margin-bottom: 0;
@@ -255,7 +282,6 @@ h3 {
   padding: 2em 0;
 }
 
-
 /* About page */
 .letter-container {
   background-color: #fefefe;
@@ -265,7 +291,6 @@ h3 {
   max-width: 800px;
   text-align: justify;
 }
-
 
 /* Press page */
 .card__date {
@@ -313,4 +338,3 @@ h3 {
 .product-card .card__header__divider {
   margin: 10px 0;
 }
-
