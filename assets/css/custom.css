@@ -110,6 +110,7 @@ h6.feature-header {
 }
 
 .flex-row {
+  display: flex;
   flex-direction: row;
 }
 
@@ -130,7 +131,6 @@ h6.feature-header {
 }
 
 
-
 #product-title {
   margin-top: 20px;
 }
@@ -140,14 +140,66 @@ h6.feature-header {
 }
 
 
+.selectric .label {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ecc14a !important;
+  text-transform: none;
+  top: 0;
+  left: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.selectric {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #ecc14a;
+  width: 250px;
+}
+
+.selectric:hover {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.selectric-wrapper {
+  margin-top: 5px;
+}
+
+
+.i-am-a-container {
+  width: 70vw;
+}
+
+#i-am-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.i-am-a-text {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#i-am-a-subtext {
+  margin-top: 25px;
+}
+
+.selectric .button {
+  background-color: transparent;
+}
+
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
 .layer {
-  height: 40px;
-  width: 80px;
+  height: 80px;
+  width: 160px;
   opacity: 0.7;
   transform-style: preserve-3d;
   /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
@@ -168,7 +220,7 @@ h6.feature-header {
 }
 
 .pos-1 {
-  top: 20px; 
+  top: 30px; 
 }
 
 .layer-1 {
@@ -176,7 +228,7 @@ h6.feature-header {
 }
 
 .pos-2 {
-  top: 40px;
+  top: 60px;
 }
 
 .layer-2 {
@@ -184,7 +236,7 @@ h6.feature-header {
 }
 
 .pos-3 {
-  top: 60px;
+  top: 90px;
 }
 
 .layer-3 {
@@ -201,8 +253,8 @@ h6.feature-header {
 
 .texts {
   position: absolute;
-  left: 120px;
-  margin-top: 10px;
+  left: 200px;
+  margin-top: 20px;
 }
 
 .layers:hover .pos-1, 

@@ -11,9 +11,10 @@
         <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/morphext.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/navbar.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/selectric.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="assets/css/aki.css" rel="stylesheet" type="text/css" media="all"/>
         <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
         <link rel="icon" href="assets/img/favicon.ico"/>
@@ -27,9 +28,6 @@
           <ul id="primary-navigation">
             <li class="menu-item">
               <a href="/">ABOUT</a>
-            </li>
-            <li class="menu-item">
-              <a href="team.html">TEAM</a>
             </li>
             <li class="menu-item">
               <a href="/">NEWS</a>
@@ -57,15 +55,26 @@
     </div>
 
 		<div class="main-container">
-            <section class="cover cover-12 form--dark imagebg height-80 parallax" id="front-banner">
+            <section class="cover cover-12 form--dark imagebg height-100 parallax" id="front-banner">
                 <!-- <div class="background-image-holder">
                     <img class="hero-parallax" src="assets/img/09.png">
                 </div> -->
                 <div class="container pos-vertical-center text-center-xs">
                     <div class="row">
-                        <div class="col-md-7 col-sm-8 col-sm-offset-2">
 
-                            <h2 class="banner-title">Building tech that unites <span id="rotate-text">activists.,engineers.,citizens.,researchers.,journalists.</span></h2>
+                        <div class="banner-container col-md-8 col-sm-9">
+                            <div id="banner-slideshow">
+                                <img class="banner-image" src="assets/img/banner/activist.png">
+                                <img class="banner-image" src="assets/img/banner/engineer.png">
+                                <img class="banner-image" src="assets/img/banner/citizen.png">
+                                <img class="banner-image" src="assets/img/banner/researcher.png">
+                                <img class="banner-image" src="assets/img/banner/journalist.png">
+                            </div>
+                            <div class="banner-title">
+                                <h2>Building tech that unites </h2>
+                                <span id="rotate-text">activists.,engineers.,citizens.,researchers.,journalists.</span>
+                            </div>
+                            <!-- -->
                         </div>
                     </div>
 
@@ -109,7 +118,7 @@
                         </div>
                         <div class="col-md-6">
                             <h3 id="product-title">A platform to leverage public data. For anyone, anywhere.</h3>
-                            <p class="lead" id="product-subtitle">Archer allows community members to contribute their analysis and narratives derived from public data.</p>
+                            <p class="lead" id="product-subtitle">Archer enables you to build, publish, and discover analysis &amp; narratives derived from public data.</p>
                         </div>
                     </div>
 
@@ -143,12 +152,27 @@
                 </div>
             </section>
 
-            <section class="imagebg parallax bg--dark">
-                <div class="background-image-holder">
-                    <img src="assets/img/9.jpg" />
+            <section class="bg--dark">
+                <div class="container i-am-a-container">
+                    <div class="flex-row">
+                        <div id="i-am-a" class="flex-row ml-auto mr-auto">
+                            <h3 class="i-am-a-text">I am a</h3>
+                            <select id="who-am-i-selector">
+                                <option value="journalist">journalist.</option>
+                                <option value="engineer">engineer.</option>
+                                <option value="activist">activist.</option>
+                                <option value="advocate">advocate.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="lead" id="i-am-a-subtext">
+                        We love journalists. ArcherPublic is designed for tracking leads, discovering content, and publishing findings.  Sign up below to receive an email when ArcherPublic launches.
+                    </p>
                 </div>
-                <h3 class="text-center">You have the power to make change.</h3>
+            </section>
 
+            <section class="bg--white">
+                <h3 class="text-center">Join us in building a more transparent future.</h3>
             </section>
                     
 
@@ -225,6 +249,7 @@
             </footer>
     </div>
 		<script src="assets/js/jquery-2.1.4.min.js"></script>
+        <script src="assets/js/selectric.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>
         <script src="assets/js/ytplayer.min.js"></script>
         <script src="assets/js/easypiechart.min.js"></script>
@@ -235,7 +260,7 @@
         <script src="assets/js/scrollreveal.min.js"></script>
         <script src="assets/js/parallax.js"></script>
         <script src="assets/js/scripts.js"></script>
-        <script src="assets/js/morphext.min.js"></script>
+        <script src="assets/js/morphext.min.js"></script> 
         <script src="assets/js/aki.js"></script>
     </body>
 </html>
