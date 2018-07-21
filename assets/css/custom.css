@@ -413,6 +413,8 @@ h3 {
 
 .product-card .card__image {
   padding: 0px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
 }
 
 .product-card .card__image img, .product-card .card__body {
