@@ -1,8 +1,35 @@
+/* General */
 * {
   margin: 0px;
   padding: 0px;
 }
 
+::-webkit-input-placeholder {
+    font-style: normal;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+/* Hero intro */
 #front-banner .banner-title {
   color: #000 !important;
   font-weight: 700;
@@ -19,184 +46,15 @@
   }
 }
 
-#ethos-section {
-  padding-top: 8.125em;
-  background-color: rgb(68, 94, 184);
-}
-
-#ethos-section .text-section {
-  padding: 2em !important;
-  background-color: #fff;
-  top: 20px;
-  box-shadow: 6px 6px 0 0 rgba(0,0,0,.15)
-}
-
-#feature-icons-home {
-  padding-bottom: 0em !important;
-}
-
-.powered-public {
-  opacity: .3 !important;
-}
-
 .background-image-holder {
-/*  opacity: 1 !important;
-*/}
-
-.sliding-img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+  opacity: 1 !important; 
 }
-
-.mb-none {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-h6.feature-header {
-    font-size: 0.8em;
-}
-
-#subForm {
-    margin-top: 20px;
-}
-
-.sub-form-button {
-    width: 100%;
-}
-
-::-webkit-input-placeholder {
-    font-style: normal;
-}
-
-#product-header {
-    margin-bottom: 70px;
-}
-
-#product-screenshot {
-    width: 100%;
-    margin-bottom: 0;
-}
-
-.feature-header.shift-header-down {
-    margin-top: 20px !important;
-}
-
-
-.main-header.scrolled {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ebebeb;
-}
-
 
 .hero-parallax {
   opacity: .3;
 }
 
-#footer-logo {
-  margin-bottom: 0;
-  max-height: 26px;
-}
-
-#footer-social-icons {
-  margin-left: auto;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.center-items {
-  align-items: center;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
-.custom-footer {
-  padding: 2em 0;
-}
-
-#product-title {
-  margin-top: 20px;
-}
-
-#product-subtitle {
-  margin-top: 40px;
-}
-
-.selectric .label {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0);
-  color: #ecc14a !important;
-  text-transform: none;
-  top: -1px;
-  left: 0px;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  font-weight: 700;
-  font-size: 2em;
-  overflow-y: visible;
-  padding: 0px;
-  margin-right: 0px;
-}
-
-.selectric .label:hover {
-  color: #d4ad42 !important;
-}
-
-.selectric .label:active {
-  color: #bc9a3b !important;
-}
-
-.selectric {
-  background-color: transparent;
-  border: none;
-  border-bottom: 4px solid #fff;
-  width: 205px;
-}
-
-.selectric:hover {
-  border-bottom: 4px solid #fff;
-}
-
-.selectric-wrapper {
-  margin-top: 5px;
-}
-
-
-.i-am-a-container {
-  width: 70vw;
-}
-
-#i-am-a {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.i-am-a-text {
-  margin-bottom: 0;
-  margin-right: 10px;
-}
-
-#i-am-a-subtext {
-  margin-top: 25px;
-}
-
-.selectric .button {
-  background-color: transparent;
-  right: -10px;
-}
-
+/* Data section */
 .layer {
   height: 80px;
   width: 160px;
@@ -269,4 +127,101 @@ h6.feature-header {
 
 .layers:hover .texts {
   opacity: 0;
+}
+
+/* Partner bar */
+.sliding-img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+/* Product section */
+#product-screenshot {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#product-title {
+  margin-top: 20px;
+}
+
+#product-subtitle {
+  margin-top: 40px;
+}
+
+/* I am a... section */
+.selectric .label {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ecc14a !important;
+  text-transform: none;
+  top: -1px;
+  left: 0px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  overflow-y: visible;
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.selectric .label:hover {
+  color: #d4ad42 !important;
+}
+
+.selectric .label:active {
+  color: #bc9a3b !important;
+}
+
+.selectric {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #fff;
+  width: 205px;
+}
+
+.selectric:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.selectric-wrapper {
+  margin-top: 5px;
+}
+
+
+.i-am-a-container {
+  width: 70vw;
+}
+
+#i-am-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.i-am-a-text {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#i-am-a-subtext {
+  margin-top: 25px;
+}
+
+.selectric .button {
+  background-color: transparent;
+  right: -10px;
+}
+
+/* Footer */
+#footer-logo {
+  margin-bottom: 0;
+  max-height: 26px;
+}
+
+#footer-social-icons {
+  margin-left: auto;
+}
+
+.custom-footer {
+  padding: 2em 0;
 }
