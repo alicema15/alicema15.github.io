@@ -163,10 +163,30 @@ h3 {
 
 #product-title {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #product-subtitle {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
+}
+
+#product-launch-button {
+  border-radius: 0px;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 15px 30px;
+  color: #666;
+  font-size: 600;
+}
+
+#product-launch-button:hover {
+  background-color: #ecc14a;
+  color: #444;
+}
+
+#product-launch-button:active {
+  background-color: #d4ad42;
+  color: #444;
 }
 
 #three-value-props .boxed {
