@@ -157,6 +157,7 @@ h3 {
 /* I am a... section */
 #i-am-a-section {
   padding: 4.5em 0em;
+  min-height: 360px;
 }
 
 .selectric .label {
