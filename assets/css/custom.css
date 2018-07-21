@@ -60,6 +60,11 @@ h3 {
 }
 
 /* Data section */
+#data-section {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
 .layer {
   height: 80px;
   width: 160px;
@@ -163,10 +168,16 @@ h3 {
   margin-top: 40px;
 }
 
+.boxed {
+  outline: 1px solid #ebebeb;
+  overflow-y: hidden;
+
+}
+
 /* I am a... section */
 #i-am-a-section {
-  padding: 4.5em 0em;
-  min-height: 360px;
+  padding: 4.8em 0em;
+  min-height: 375px;
 }
 
 .selectric .label {
