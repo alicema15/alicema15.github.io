@@ -520,8 +520,7 @@ input[type].form-input {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100vw;
-    margin-left: 50px;
+    width: 100%;
 }
 
 #banner-slideshow {
