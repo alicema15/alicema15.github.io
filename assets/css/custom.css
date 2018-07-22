@@ -561,4 +561,8 @@ input[type].form-input {
   .banner-title {
     width: calc(100vw - 40px);
   }
+
+  #sign-up-section .background-image-holder {
+    position: relative;
+  }
 }
