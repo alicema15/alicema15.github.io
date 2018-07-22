@@ -415,7 +415,7 @@ button.launch-button:active {
 
 .footer-4 .footer__lower {
   margin-top: 20px;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .menu.footer-menu {
@@ -425,6 +425,15 @@ button.launch-button:active {
 .footer-menu .footer-nav-item {
   font-family: 'Poppins', 'Montserrat', 'Lato', 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
+}
+
+.footer-menu .footer-nav-item {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.footer-nav-item a {
+  color: #bbbbbb !important;
 }
 
 /* About page */
