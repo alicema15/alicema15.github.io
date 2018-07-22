@@ -54,7 +54,7 @@ h3 {
 }
 
 #front-banner .banner-title h2 {
-  width: 650px !important;
+  width: 100%;
 }
 
 @media all and (min-width: 767px) {
@@ -534,8 +534,70 @@ input[type].form-input {
 
 
 
+/* Banner */
+/* General */
+.accent {
+  color: #ffb221 !important;
+}
+
+/* Banner */
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#banner-slideshow {
+    max-width: 450px;
+    margin-right: 50px;
+}
+
+#front-banner {
+    padding: 0px;
+    height: 75vh;
+}
+
+.banner-title h2 {
+  color: #343434;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: .42em;
+}
+
+#rotate-text {
+  color: #ffb221;
+  max-width: 400px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0px;
+}
 
 
 @media (max-width: 992px) {
+  .banner-container {
+    margin: 0 20px;
+  }
 
+  .banner-title {
+    width: calc(100vw - 40px);
+  }
+
+  #sign-up-section .background-image-holder {
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title h2, #rotate-text {
+    font-size: 4em;
+  }
+
+  #front-banner {
+    padding: 40px 0;
+    height: auto;
+  }
 }
