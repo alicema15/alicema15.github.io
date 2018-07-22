@@ -248,6 +248,18 @@ button.launch-button:active {
   height: 42px;
 }
 
+.selectric-scroll li {
+  font-size: 16px;
+}
+
+.selectric-scroll li:hover {
+  background-color: #ffb221;
+}
+
+.selectric-scroll li:active {
+  background-color: #d4ad42;
+}
+
 @media (max-width: 1024px) {
   .selectric-wrapper {
     margin-top: 3px;
