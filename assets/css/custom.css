@@ -606,10 +606,6 @@ input[type].form-input {
     width: calc(100vw - 40px);
   }
 
-  #sign-up-section .background-image-holder {
-    position: relative;
-  }
-
   .card .card__body {
     margin-bottom: 0;
   }
