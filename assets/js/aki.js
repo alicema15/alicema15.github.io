@@ -57,6 +57,17 @@ $(() => {
         $(this).children(':first').unwrap()
     })
 
+    /* layers animation */
+    $('.layer').on('mouseover', (event) => {
+        $('.layer').addClass('faded')
+        $(event.target).removeClass('faded')
+    })
+
+    $('.layer').on('mouseout', (event) => {
+        $('.layer').removeClass('faded')
+    })
+
+
     $('select').selectric({
         maxHeight: 200,
         openOnHover: true
