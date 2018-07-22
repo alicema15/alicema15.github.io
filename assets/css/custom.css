@@ -81,7 +81,7 @@ h3 {
 .layer {
   height: 50px;
   width: 150px;
-  /*opacity: 0.9;*/
+  opacity: 0.9;
   transform-style: preserve-3d;
   /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
   /* transform: rotateX(20deg) rotateY(20deg) rotateZ(45deg); */
@@ -90,36 +90,37 @@ h3 {
   position: absolute;
 }
 
+.layer-0 {
+  background-color: orange;
+  opacity: 1;
+}
+
 .pos-0 {
   top: 0px;
 }
 
-.layer-0 {
-  background-color: rgba(255, 178, 33, .85);
-}
-
 .pos-1 {
-  top: 40px; 
+  top: 30px; 
 }
 
 .layer-1 {
-  background-color: rgba(255, 178, 33, .65);
+  background-color: purple;
 }
 
 .pos-2 {
-  top: 80px;
+  top: 60px;
 }
 
 .layer-2 {
-  background-color: rgba(255, 178, 33, .35);
+  background-color: red;
 }
 
 .pos-3 {
-  top: 120px;
+  top: 90px;
 }
 
 .layer-3 {
-  background-color: rgba(255, 178, 33, .2);
+  background-color: blue;
 }
 
 .layers {
@@ -133,14 +134,10 @@ h3 {
   opacity: 0.1;
 }
 
-.layer-title {
+.texts {
   position: absolute;
-  left: 240px;
-  margin-top: 5px;
-  color: #767676 !important;
-  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  left: 230px;
+  margin-top: 10px;
 }
 
 /* Partner bar */
@@ -432,7 +429,7 @@ button.launch-button:active {
 
 /* About page */
 #letter-section {
-  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;;
 }
 
 .letter-container {
@@ -610,7 +607,7 @@ input[type].form-input {
   }
 
   #sign-up-section .background-image-holder {
-    
+    position: relative;
   }
 
   .card .card__body {
