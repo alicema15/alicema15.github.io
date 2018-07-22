@@ -254,7 +254,11 @@ button.launch-button:active {
   color: #bc9a3b !important;
 }
 
-.selectric-scroll 
+.selectric .button {
+  background-color: transparent;
+  right: -10px;
+  font-weight: 700;
+}
 
 .i-am-a-container {
   /*width: 70vw;*/
@@ -276,11 +280,6 @@ button.launch-button:active {
 
 .i-am-a-subtext a {
   color: #ffb221 !important;
-}
-
-.selectric .button {
-  background-color: transparent;
-  right: -10px;
 }
 
 /* Sign up */
@@ -345,8 +344,9 @@ button.launch-button:active {
 #sign-up-submit {
   border-radius: 0px;
   padding: 0px;
-  padding-top: 8px;
+  padding-top: 5px;
   width: 52px;
+  height: 52px;
   border: 1px solid #ebebeb;
   background-color: #ebebeb;
 }
