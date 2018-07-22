@@ -433,3 +433,7 @@ h3 {
 .product-card .card__header__divider {
   margin: 10px 0px;
 }
+
+.thin-border-right {
+  border-right: 1px solid #ebebeb;
+}
