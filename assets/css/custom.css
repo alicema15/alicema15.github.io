@@ -67,16 +67,15 @@ h3 {
 }
 
 .layer {
-  height: 80px;
-  width: 160px;
-  opacity: 0.7;
+  height: 50px;
+  width: 150px;
+  opacity: 0.9;
   transform-style: preserve-3d;
   /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
   /* transform: rotateX(20deg) rotateY(20deg) rotateZ(45deg); */
   /* transform: rotate3d(1, 1, 0.1, 0deg); */
-  transform: skew(-20deg, 15deg) rotateX(20deg);
+  transform: skew(-70deg, 15deg) rotateX(20deg);
   position: absolute;
-  transition: top 300ms ease-in;
 }
 
 .layer-0 {
@@ -119,24 +118,14 @@ h3 {
   margin-top: 30px;
 }
 
+.faded {
+  opacity: 0.1;
+}
+
 .texts {
   position: absolute;
-  left: 200px;
-  margin-top: 30px;
-}
-
-.layers:hover .pos-1, 
-.layers:hover .pos-2,
-.layers:hover .pos-3 {
-  top: 0px;
-}
-
-.layers .texts {
-  transition: top 300ms ease-in, opacity 150ms ease-in;
-}
-
-.layers:hover .texts {
-  opacity: 0;
+  left: 230px;
+  margin-top: 10px;
 }
 
 /* Partner bar */
@@ -443,4 +432,13 @@ h3 {
 
 .product-card .card__header__divider {
   margin: 10px 0px;
+}
+
+.thin-border-right {
+  border-right: 1px solid #ebebeb;
+}
+
+/* Team page */
+hr {
+  margin-bottom: 50px;
 }
