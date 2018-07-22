@@ -439,6 +439,22 @@ h3 {
 }
 
 /* Team page */
-hr {
+#team-section a {
+  color: #ffb221;
+}
+
+#team-section a:active {
+  color: #d4ad42;
+}
+
+#team-section i:hover {
+  color: #ffb221 !important;
+}
+
+#team-section i:active {
+  color: #d4ad42 !important;
+}
+
+#team-section hr {
   margin-bottom: 50px;
 }
