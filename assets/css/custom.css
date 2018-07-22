@@ -362,7 +362,7 @@ button.launch-button:active {
   width: 290px;
   border-radius: 0px;
   border: 1px solid #ebebeb;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
   letter-spacing: .5px;
   padding-left: 15px;
   background-color: #fff;
@@ -413,7 +413,16 @@ button.launch-button:active {
 }
 
 .custom-footer {
-  padding: 2em 0;
+  padding: 20px 0 0 0;
+}
+
+.footer-4 .footer__lower {
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.menu.footer-menu {
+  height: 100%;
 }
 
 /* About page */
@@ -429,6 +438,12 @@ button.launch-button:active {
   max-width: 850px;
   text-align: justify;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 990px) {
+  .letter-container {
+    padding: 25px;
+  }
 }
 
 /* Press page */
@@ -580,7 +595,7 @@ input[type].form-input {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
   .banner-container {
     margin: 0 20px;
   }
@@ -592,6 +607,23 @@ input[type].form-input {
   #sign-up-section .background-image-holder {
     position: relative;
   }
+
+  .card .card__body {
+    margin-bottom: 0;
+  }
+
+  .product-card {
+    margin-bottom: 20px;
+  }
+
+  .product-card .card__text {
+    max-width: 100%;
+  }
+
+  .product-card .card__image img,
+  .product-card .card__body {
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -602,5 +634,11 @@ input[type].form-input {
   #front-banner {
     padding: 40px 0;
     height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  #sign-up-container.boxed {
+    padding-left: 20px;
   }
 }
