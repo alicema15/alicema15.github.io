@@ -239,11 +239,35 @@ button.launch-button:active {
   left: -2px;
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   font-weight: 500;
-  font-size: 2.3em;
+  font-size: 36px;
   padding: 0px;
   margin-right: 0px;
   height: 42px;
-  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .selectric-wrapper {
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .selectric-wrapper {
+    margin-top: -3px;
+  }
+
+  .selectric {
+    border-width: 1.5px;
+  }
+
+  .selectric:hover {
+    border-width: 1.5px;
+  }
+
+  .selectric .label {
+    font-size: 24px;
+    top: 0px;
+  }
 }
 
 .selectric .label:hover {
@@ -272,6 +296,7 @@ button.launch-button:active {
 .i-am-a-text {
   margin-bottom: 0;
   margin-right: 10px;
+  /*font-size: 32px;*/
 }
 
 .i-am-a-subtext {
@@ -344,7 +369,7 @@ button.launch-button:active {
 #sign-up-submit {
   border-radius: 0px;
   padding: 0px;
-  padding-top: 5px;
+  padding-top: 6px;
   width: 52px;
   height: 52px;
   border: 1px solid #ebebeb;
