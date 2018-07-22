@@ -54,7 +54,7 @@ h3 {
 }
 
 #front-banner .banner-title h2 {
-  width: 650px !important;
+  width: 100%;
 }
 
 @media all and (min-width: 767px) {
@@ -536,7 +536,6 @@ input[type].form-input {
 .banner-title h2 {
   color: #343434;
   font-weight: 700;
-  font-size: 32px;
   font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
   font-size: 80px;
   font-weight: 600;
@@ -564,5 +563,16 @@ input[type].form-input {
 
   #sign-up-section .background-image-holder {
     position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title h2, #rotate-text {
+    font-size: 4em;
+  }
+
+  #front-banner {
+    padding: 40px 0;
+    height: auto;
   }
 }
