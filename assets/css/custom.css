@@ -509,8 +509,57 @@ input[type].form-input {
 
 
 
+/* Banner */
+/* General */
+.accent {
+  color: #ffb221 !important;
+}
+
+/* Banner */
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vw;
+    margin-left: 50px;
+}
+
+#banner-slideshow {
+    max-width: 450px;
+    margin-right: 50px;
+}
+
+#front-banner {
+    padding: 0px;
+    height: 75vh;
+}
+
+.banner-title h2 {
+  color: #343434;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: .42em;
+}
+
+#rotate-text {
+  color: #ffb221;
+  max-width: 400px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0px;
+}
 
 
 @media (max-width: 992px) {
+  .banner-container {
+    margin: 0 20px;
+  }
 
+  .banner-title {
+    width: calc(100vw - 40px);
+  }
 }
