@@ -45,8 +45,12 @@ $('#rotate-text').Morphext({
 });
 
 $(() => {
-    /* Dynamically inject nav & footer */
-    $('#top').load('../includes/nav.html');
+    $('#top').load('../includes/nav.html', () => {
+        /* select either the first word after the slash, or use `/` (for homepage) */
+        const page = window.location.pathname.split('/')[1] || window.location.pathname;
+        $(`.menu-item a[href="${page}"]`).addClass('active-item');
+    });
+
     $('#mobile-top').load('../includes/mobile-nav.html');
 
     $(document).on('click', '.nav-mobile-toggle', () => {
@@ -75,6 +79,7 @@ $(() => {
         maxHeight: 200,
         openOnHover: true
     });
+
 })
 
 var vowels = 'aeiou';
