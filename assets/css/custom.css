@@ -425,6 +425,11 @@ button.launch-button:active {
   height: 100%;
 }
 
+.footer-menu .footer-nav-item {
+  font-family: 'Poppins', 'Montserrat', 'Lato', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 600;
+}
+
 /* About page */
 #letter-section {
   font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
