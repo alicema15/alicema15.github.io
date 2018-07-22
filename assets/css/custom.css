@@ -81,7 +81,7 @@ h3 {
 .layer {
   height: 50px;
   width: 150px;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   transform-style: preserve-3d;
   /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
   /* transform: rotateX(20deg) rotateY(20deg) rotateZ(45deg); */
@@ -90,37 +90,36 @@ h3 {
   position: absolute;
 }
 
-.layer-0 {
-  background-color: orange;
-  opacity: 1;
-}
-
 .pos-0 {
   top: 0px;
 }
 
+.layer-0 {
+  background-color: rgba(255, 178, 33, .85);
+}
+
 .pos-1 {
-  top: 30px; 
+  top: 40px; 
 }
 
 .layer-1 {
-  background-color: purple;
+  background-color: rgba(255, 178, 33, .65);
 }
 
 .pos-2 {
-  top: 60px;
+  top: 80px;
 }
 
 .layer-2 {
-  background-color: red;
+  background-color: rgba(255, 178, 33, .35);
 }
 
 .pos-3 {
-  top: 90px;
+  top: 120px;
 }
 
 .layer-3 {
-  background-color: blue;
+  background-color: rgba(255, 178, 33, .2);
 }
 
 .layers {
@@ -134,10 +133,14 @@ h3 {
   opacity: 0.1;
 }
 
-.texts {
+.layer-title {
   position: absolute;
-  left: 230px;
-  margin-top: 10px;
+  left: 240px;
+  margin-top: 5px;
+  color: #767676 !important;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 /* Partner bar */
@@ -415,7 +418,7 @@ button.launch-button:active {
 
 /* About page */
 #letter-section {
-  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;;
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
 .letter-container {

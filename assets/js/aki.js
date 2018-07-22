@@ -44,30 +44,33 @@ $('#rotate-text').Morphext({
     complete: function() {}
 });
 
-/* I am a... section */
 $(() => {
-    $('#top').load('../includes/nav.html')
-    $('#mobile-top').load('../includes/mobile-nav.html')
+    /* Dynamically inject nav & footer */
+    $('#top').load('../includes/nav.html');
+    $('#mobile-top').load('../includes/mobile-nav.html');
 
     $(document).on('click', '.nav-mobile-toggle', () => {
-        $('#mobile-top').toggleClass('nav-open')
-    })
+        $('#mobile-top').toggleClass('nav-open');
+    });
 
     $('footer').load('./includes/footer.html', function() {
-        $(this).children(':first').unwrap()
-    })
+        $(this).children(':first').unwrap();
+    });
 
-    /* layers animation */
+    /* Layers animation */
     $('.layer').on('mouseover', (event) => {
-        $('.layer').addClass('faded')
-        $(event.target).removeClass('faded')
-    })
+        $('.layer').addClass('faded');
+        $(event.target).removeClass('faded');
+        var layer = $(event.target).attr('class').match(/\d/)[0];
+        $(`#stack-${layer}`).addClass('accent');
+    });
 
     $('.layer').on('mouseout', (event) => {
-        $('.layer').removeClass('faded')
-    })
+        $('.layer').removeClass('faded');
+        $('.layer-title').removeClass('accent');
+    });
 
-
+    /* I am a... section */
     $('select').selectric({
         maxHeight: 200,
         openOnHover: true
