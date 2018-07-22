@@ -35,14 +35,26 @@ h3 {
 }
 
 /* Hero intro */
-#front-banner{ 
+.banner-container { 
   /*height: 1000px !important;*/
+  margin: 0 auto;
+}
+
+.banner-image {
+  /*height: 150px;*/
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  margin: -60px 30px 0 0px;
+  padding: 0px;
 }
 
 #front-banner .banner-title {
-  color: #000 !important;
   font-weight: 700;
-  /*text-shadow: 3px 3px 0 #ffb221;*/
+}
+
+#front-banner .banner-title h2 {
+  width: 650px !important;
 }
 
 @media all and (min-width: 767px) {
@@ -145,6 +157,10 @@ h3 {
 }
 
 /* Product section */
+#product-section {
+  padding-bottom: 80px;
+}
+
 #product-screenshot {
     width: 100%;
     margin-bottom: 0;
@@ -443,8 +459,25 @@ button.launch-button:active {
 }
 
 /* Team page */
-hr {
+#team-section a {
+  color: #ffb221;
+}
+
+#team-section a:active {
+  color: #d4ad42;
+}
+
+#team-section i:hover {
+  color: #ffb221 !important;
+}
+
+#team-section i:active {
+  color: #d4ad42 !important;
+}
+
+#team-section hr {
   margin-bottom: 50px;
+  border: 1.5px solid #ebebeb;
 }
 
 /* Contact page */
