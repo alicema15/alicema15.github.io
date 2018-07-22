@@ -624,3 +624,9 @@ input[type].form-input {
     height: auto;
   }
 }
+
+@media (max-width: 500px) {
+  #sign-up-container.boxed {
+    padding-left: 20px;
+  }
+}
