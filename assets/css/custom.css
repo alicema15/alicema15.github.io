@@ -37,6 +37,7 @@ h3 {
 /* Hero intro */
 #front-banner{ 
   /*height: 1000px !important;*/
+  margin-left: 15%;
 }
 
 .banner-image {
