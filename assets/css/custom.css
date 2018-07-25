@@ -175,6 +175,10 @@ h3 {
   font-size: 1.1em;
 }
 
+.section-text-fixed {
+  font-size: 1.1em;
+}
+
 /* Product section */
 #product-section {
   padding-bottom: 80px;

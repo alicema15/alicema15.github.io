@@ -57,17 +57,24 @@ $(() => {
         $(this).children(':first').unwrap();
     });
 
-    /* Layers animation */
+    /* Layers */
+    $('.section-text').hide();
+    $('#layer-text-default').show();
+
     $('.layer').on('mouseover', (event) => {
         $('.layer').addClass('faded');
         $(event.target).removeClass('faded');
         var layer = $(event.target).attr('class').match(/\d/)[0];
         $(`#stack-${layer}`).addClass('accent');
+        $('.section-text').hide();
+        $(`#layer-text-${layer}`).show();
     });
 
     $('.layer').on('mouseout', (event) => {
         $('.layer').removeClass('faded');
         $('.layer-title').removeClass('accent');
+        $('.section-text').hide();
+        $('#layer-text-default').show();
     });
 
     /* I am a... section */
