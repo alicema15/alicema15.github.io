@@ -639,14 +639,32 @@ input[type].form-input {
 }
 
 #contact-page {
-  height: 100%;
+  min-height: 430px; 
+  height: calc(100vh - 189px);
+}
+
+@media (max-width: 1024px) {
+  #contact-page {
+    height: calc(100vh - 179px);
+  }
+}
+
+@media (max-width: 990px) {
+  #contact-page {
+    min-height: 420px; 
+    height: calc(100vh - 169px);
+  }
+}
+
+@media (max-width: 768px) {
+  #contact-page {
+    min-height: 560px;
+  }
 }
 
 .d-none {
   display: none !important;
 }
-
-
 
 /* Banner */
 /* General */
