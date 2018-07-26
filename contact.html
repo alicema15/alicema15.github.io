@@ -44,12 +44,12 @@
                     <div class="col-sm-6">
                         <form id="contact-us-form" action="https://formspree.io/team@archerimpact.com" method="POST">
                             <div class="flex-row">
-                                <input id="contact-name-input" type="text" name="name" class="form-input contact-input" placeholder="Your name">
-                                <input id="contact-email-input" type="email" name="_replyto" class="form-input contact-input" placeholder="Your email">
+                                <input id="contact-name-input" type="text" name="name" class="form-input contact-input" placeholder="Your name" required>
+                                <input id="contact-email-input" type="email" name="_replyto" class="form-input contact-input" placeholder="Your email" required>
                             </div>
-                            <textarea id="contact-content-input" name="content" class="form-input" placeholder="Your message"></textarea>
-                            <button class="launch-button">
-                                Submit
+                            <textarea id="contact-content-input" name="content" class="form-input" placeholder="Your message" required></textarea>
+                            <button class="launch-button" type="submit">
+                                <span id="submit-button-text">Submit</span>
                             </button>
 
                         </div>
