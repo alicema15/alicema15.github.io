@@ -49,6 +49,7 @@ $(() => {
         /* select either the first word after the slash, or use `/` (for homepage) */
         const page = window.location.pathname.split('/')[1] || window.location.pathname;
         $(`.menu-item a[href="${page}"]`).addClass('active-item');
+        $(`.dropdown-content a[href="${page}"]`).removeClass('active-item');
     });
 
     $('#mobile-top').load('../includes/mobile-nav.html');
