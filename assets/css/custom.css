@@ -315,6 +315,7 @@ button.launch-button:active {
 
   .selectric {
     border-width: 1.5px;
+    width: 190px;
   }
 
   .selectric:hover {
