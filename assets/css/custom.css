@@ -75,7 +75,36 @@ h3 {
 #data-section {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
+  min-height: 570px;
+}
+
+@media (max-width: 1200px) {
+  #data-section {
+    min-height: 610px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #data-section {
+    min-height: 500px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 990px) {
+  #data-section {
+    min-height: 0px;
+    padding-bottom: 50px;
+  }
+}
+
+.layers {
+  margin-left: 30px;
+  perspective: 100px;
+  perspective-origin: 50% 50px;
+  margin-top: 45px;
 }
 
 .layer {
@@ -136,13 +165,6 @@ h3 {
   border-right: 3px solid rgba(255, 178, 33, .2);
   border-top: 1px solid rgba(255, 178, 33, .2);
   border-bottom: 1px solid rgba(255, 178, 33, .2);
-}
-
-.layers {
-  margin-left: 30px;
-  perspective: 100px;
-  perspective-origin: 50% 50px;
-  margin-top: 30px;
 }
 
 .faded {
