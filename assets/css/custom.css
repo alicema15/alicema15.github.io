@@ -619,6 +619,9 @@ input[type].form-input {
   height: calc(100vh - 100px);
 }
 
+.d-none {
+  display: none !important;
+}
 
 
 

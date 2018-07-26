@@ -2,6 +2,16 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111936547-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-111936547-1');
+        </script>
+
         <meta charset="utf-8">
         <title>Archer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +56,7 @@
                                 <input id="contact-email-input" type="email" name="_replyto" class="form-input contact-input" placeholder="Your email" required>
                             </div>
                             <textarea id="contact-content-input" name="content" class="form-input" placeholder="Your message" required></textarea>
+                            <input class="d-none" type="text" name="_gotcha">
                             <button class="launch-button" type="submit">
                                 <span id="submit-button-text">Submit</span>
                             </button>
