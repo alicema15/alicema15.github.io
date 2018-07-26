@@ -616,7 +616,7 @@ input[type].form-input {
 }
 
 #contact-page {
-  height: calc(100vh - 100px);
+  height: 100%;
 }
 
 .d-none {
