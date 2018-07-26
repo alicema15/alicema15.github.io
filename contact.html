@@ -2,6 +2,16 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111936547-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-111936547-1');
+        </script>
+
         <meta charset="utf-8">
         <title>Archer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +30,9 @@
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 
         <!-- load navbars -->
-        <nav id="top" class="hidden-sm hidden-xs">
-        </nav>
+        <nav id="top" class="hidden-sm hidden-xs"></nav>
 
-        <nav id="mobile-top" class="transition--fade transition--active visible-sm visible-xs">
-        </nav>
+        <nav id="mobile-top" class="transition--fade transition--active visible-sm visible-xs"></nav>
         <!-- end navbars -->
 
         <section id="contact-page">
@@ -44,15 +52,15 @@
                     <div class="col-sm-6">
                         <form id="contact-us-form" action="https://formspree.io/team@archerimpact.com" method="POST">
                             <div class="flex-row">
-                                <input id="contact-name-input" type="text" name="name" class="form-input contact-input" placeholder="Your name">
-                                <input id="contact-email-input" type="email" name="_replyto" class="form-input contact-input" placeholder="Your email">
+                                <input id="contact-name-input" type="text" name="name" class="form-input contact-input" placeholder="Your name" required>
+                                <input id="contact-email-input" type="email" name="_replyto" class="form-input contact-input" placeholder="Your email" required>
                             </div>
-                            <textarea id="contact-content-input" name="content" class="form-input" placeholder="Your message"></textarea>
-                            <button class="launch-button">
-                                Submit
+                            <textarea id="contact-content-input" name="content" class="form-input" placeholder="Your message" required></textarea>
+                            <input class="d-none" type="text" name="_gotcha">
+                            <button class="launch-button" type="submit">
+                                <span id="submit-button-text">Submit</span>
                             </button>
-
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -62,7 +70,7 @@
         <footer>
             <!-- Dynamically load footer -->
         </footer>
-    </div>
+
 		<script src="assets/js/jquery-2.1.4.min.js"></script>
         <script src="assets/js/selectric.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>

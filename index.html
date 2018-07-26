@@ -2,6 +2,16 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111936547-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-111936547-1');
+        </script>
+
         <meta charset="utf-8">
         <title>Archer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +31,8 @@
     </head>
     <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
         <!-- load navbars -->
-        <nav id="top" class="hidden-sm hidden-xs">
-        </nav>
-
-        <nav id="mobile-top" class="transition--fade transition--active visible-sm visible-xs">
-        </nav>
+        <nav id="top" class="hidden-sm hidden-xs"></nav>
+        <nav id="mobile-top" class="transition--fade transition--active visible-sm visible-xs"></nav>
         <!-- end navbars -->
 
 		<div class="main-container">
@@ -94,6 +101,7 @@
 
                         </div>
                     </div>
+                </div>
             </section>
 
             <section id="product-section">
@@ -202,7 +210,7 @@
                             <h3>Join us in building <br/>a <span class="accent">transparent</span> future.</h3>
                             <h5>Sign up here to get involved with what Archer <br/>is doing. We'll only send you important updates.</h5>
 
-                            <form id="sign-up-form" action="https://archeratberkeley.us17.list-manage.com/subscribe/post?u=6f7abb9e526fd4f56b65d0305&amp;id=ac3505424d" method="post" id="subForm" data-error="Please provide a valid email" data-success="Thanks for signing up!">
+                            <form id="sign-up-form" action="https://archeratberkeley.us17.list-manage.com/subscribe/post?u=6f7abb9e526fd4f56b65d0305&amp;id=ac3505424d" method="post" data-error="Please provide a valid email" data-success="Thanks for signing up!">
                                 <input class="validate-required validate-email" id="sign-up-input" name="EMAIL" type="email" placeholder="Email address" required>
                                 <button id="sign-up-submit" type="submit" class="btn btn--primary btn--lg">
                                     <i class="icon icon-Right icon--lg"></i>
@@ -242,11 +250,12 @@
                 </div>
             </section>
             -->
+        </div>
+
         <footer>
             <!-- Dynamically load footer -->
         </footer>
         
-    </div>
 		<script src="assets/js/jquery-2.1.4.min.js"></script>
         <script src="assets/js/selectric.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>

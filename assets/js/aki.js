@@ -87,6 +87,41 @@ $(() => {
         openOnHover: true
     });
 
+    $contactForm = $('#contact-us-form')
+    
+    /* contact form submit via AJAX */
+    $contactForm.submit(function(e) {
+        e.preventDefault();
+        const $submit = $('button:submit', $contactForm);
+        const $submitText = $('#submit-button-text');
+
+        $.ajax({
+            url: $contactForm.attr('action'),
+            method: 'POST',
+            data: $(this).serialize(),
+            dataType: 'json',
+            beforeSend: function() {
+                $submit.attr('disabled', true);
+                $submitText.text('Submitting...');
+            },
+            success: function(data) {
+                $submitText.text('Submitted!');
+                $('#contact-us-form .form-input').val('');
+                setTimeout(function() {
+                    $submit.attr('disabled', false)
+                    $submitText.text('Submit');
+                }, 5000);
+            },
+            error: function(err) {
+                $submitText.text('Oops, there was an error.');
+                setTimeout(function() {
+                    $submit.attr('disabled', false)
+                    $submitText.text('Submit');
+                }, 5000);
+            }
+        });
+    });
+
 })
 
 var vowels = 'aeiou';
