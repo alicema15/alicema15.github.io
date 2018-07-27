@@ -39,16 +39,6 @@ h3 {
 }
 
 /* Hero intro */
-/*@media (max-width: 1200px) {
-  #front-banner {
-    min-height: 600px;
-  }
-
-  #front-banner .banner-container {
-    margin-top: 250px;
-  }
-}*/
-
 #front-banner {
   padding: 0px;
   height: 75vh;
@@ -59,11 +49,7 @@ h3 {
   #front-banner {
     height: 600px;
     min-height: 0px;
-  }
-
-  .banner-container {
-    padding-top: 50px;
-  }   
+  }  
 }
 
 .banner-container {
@@ -74,15 +60,9 @@ h3 {
   margin: auto;
 } 
 
-#front-banner .banner-title {
+.banner-title {
   font-weight: 700;
   margin-top: 60px;
-}
-
-@media all and (min-width: 767px) {
-  #front-banner .banner-title {
-    font-size: 60px;
-  }
 }
 
 .banner-title h2 {
@@ -106,16 +86,37 @@ h3 {
 
 .banner-image {
   display: block;
-  width: 400px;
+  width: 400px !important;
   height: 400px;
   margin: 0px 50px 0 0px;
   padding: 0px;
   opacity: .9;
-  box-shadow: inset 0px 0px 4px 0 #000000;
+  box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 7);
   border-radius: 50%;
   background-image: url('../img/banner/collage-circle2.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 1199px) {
+  .banner-title {
+    margin-top: 75px;
+  }
+
+  #front-banner {
+    height: 500px;
+    min-height: 0px;
+  }
+
+  .banner-title h2, #rotate-text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 990px) {
+  .banner-title {
+    margin-top: 0px;
+  }
 }
 
 .background-image-holder {
@@ -712,12 +713,6 @@ input[type].form-input {
   #contact-page {
     min-height: 420px; 
     height: calc(100vh - 169px);
-  }
-}
-
-@media (max-width: 768px) {
-  #contact-page {
-    min-height: 560px;
   }
 }
 
