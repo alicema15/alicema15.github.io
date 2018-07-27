@@ -13,6 +13,10 @@ h3 {
   font-style: normal;
 }
 
+.accent {
+  color: #ffb221 !important;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -664,12 +668,6 @@ input[type].form-input {
 
 .d-none {
   display: none !important;
-}
-
-/* Banner */
-/* General */
-.accent {
-  color: #ffb221 !important;
 }
 
 /* Banner */
