@@ -37,12 +37,14 @@ window.onscroll = () => {
 // }
 
 /* Banner text */
-$('#rotate-text').Morphext({
-    animation: "fadeInUp",
-    separator: ",",
-    speed: 2500,
-    complete: function() {}
-});
+if ($('#rotate-text').length > 0) {
+    $('#rotate-text').Morphext({
+        animation: "fadeInUp",
+        separator: ",",
+        speed: 2500,
+        complete: function() {}
+    });
+}
 
 $(() => {
     $('#top').load('../includes/nav.html', () => {
