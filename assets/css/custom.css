@@ -39,16 +39,76 @@ h3 {
 }
 
 /* Hero intro */
-.banner-container { 
-  /*height: 1000px !important;*/
-  margin: 0 auto;
+/*@media (max-width: 1200px) {
+  #front-banner {
+    min-height: 600px;
+  }
+
+  #front-banner .banner-container {
+    margin-top: 250px;
+  }
+}*/
+
+#front-banner {
+  padding: 0px;
+  height: 75vh;
+  min-height: 700px;
+}
+
+@media (max-height: 600px) {
+  #front-banner {
+    height: 600px;
+    min-height: 0px;
+  }
+
+  .banner-container {
+    padding-top: 50px;
+  }   
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin: auto;
+} 
+
+#front-banner .banner-title {
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+@media all and (min-width: 767px) {
+  #front-banner .banner-title {
+    font-size: 60px;
+  }
+}
+
+.banner-title h2 {
+  color: #343434;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: .42em;
+  width: 100%;
+}
+
+#rotate-text {
+  color: #ffb221;
+  max-width: 400px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0px;
 }
 
 .banner-image {
   display: block;
   width: 400px;
   height: 400px;
-  margin: -60px 50px 0 0px;
+  margin: 0px 50px 0 0px;
   padding: 0px;
   opacity: .9;
   box-shadow: inset 0px 0px 4px 0 #000000;
@@ -56,20 +116,6 @@ h3 {
   background-image: url('../img/banner/collage-circle2.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#front-banner .banner-title {
-  font-weight: 700;
-}
-
-#front-banner .banner-title h2 {
-  width: 100%;
-}
-
-@media all and (min-width: 767px) {
-  #front-banner .banner-title {
-    font-size: 60px;
-  }
 }
 
 .background-image-holder {
@@ -680,42 +726,6 @@ input[type].form-input {
 }
 
 /* Banner */
-.banner-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-#banner-slideshow {
-  max-width: 450px;
-  margin-right: 50px;
-}
-
-#front-banner {
-  padding: 0px;
-  height: 75vh;
-}
-
-.banner-title h2 {
-  color: #343434;
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  font-size: 80px;
-  font-weight: 600;
-  margin-bottom: .42em;
-}
-
-#rotate-text {
-  color: #ffb221;
-  max-width: 400px;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
-  font-size: 80px;
-  font-weight: 600;
-  margin: 0px;
-}
-
-
 @media (max-width: 990px) {
   .banner-container {
     margin: 0 20px;
